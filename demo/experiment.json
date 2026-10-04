@@ -1,0 +1,23 @@
+{
+  "version":"1.0",
+  "id":"demo_balance_001",
+  "name":"Clockwork Tyrant Balance Study",
+  "description":"Compare three player builds against a three-phase boss and find a healthy HP range.",
+  "research_question":"How do build archetype, boss HP, and critical scaling change win rate and time-to-kill?",
+  "scope":{"arena":"2d_combat_arena","max_fight_seconds":120,"allowed_components":["hp","attack","defense","critical","attack_speed","cooldown","mana","stamina","i_frame","dodge","knockback","hitstun","projectile","aoe","dot","hot","buff","debuff","shield","combo"],"deterministic_seed":20261004},
+  "constraints":{"no_paid_model_api":true,"formula_language":"safe_arithmetic_v1","max_experiments":10000,"max_entities_per_fight":8},
+  "formula":"max(0, attack * multiplier - defense)",
+  "formula_variants":{"baseline":"max(0, attack * multiplier - defense)","softened_defense":"max(0, attack * multiplier - defense * 1.15)","crit_scaling":"max(0, attack * multiplier * (1 + 0.5 * is_critical) - defense)"},
+  "available_resources":{"configs":{"mechanics":"../configs/mechanics.json","builds":"../configs/builds.json","skills":"../configs/skills.json","enemies":"../configs/enemies.json","bosses":"../configs/bosses.json"},"models":["RuleBasedBot","MockRoller"]},
+  "metrics":{"primary":["win_rate","median_ttk","mean_dps"],"secondary":["damage_taken","deaths","skill_usage","critical_rate","dodge_rate","phase_reached"]},
+  "budget":{"max_runs":10000,"max_wall_seconds":180},"max_experiments":36,"status":"ready",
+  "hypotheses":[
+    {"id":"H1","statement":"Glass Cannon has the highest mean DPS but loses more often once boss HP exceeds 10,000.","rationale":"High attack and crit are offset by low HP and defense.","predictions":{"mean_dps":"highest","win_rate_at_12500":"< 0.75","damage_taken":"highest"},"test_method":"Compare all builds at boss_hp=5000,7500,10000,12500 with 1000 fights each.","confidence":0.65,"status":"untested"},
+    {"id":"H2","statement":"A 0.50 second I-frame gives the controller a measurable survival advantage over 0.30 seconds.","rationale":"Longer invulnerability should reduce damage from telegraphed area attacks.","predictions":{"win_rate_delta":">= 0.05","damage_taken_delta":"<= -0.08"},"test_method":"Override fortress_controller.i_frame with 0.30 and 0.50 and replay identical seeds.","confidence":0.55,"status":"untested"},
+    {"id":"H3","statement":"The boss is in a useful tuning range when median TTK is 25-55 seconds and win rate is 0.45-0.85.","rationale":"This leaves room for mastery without making the encounter a wall.","predictions":{"healthy_hp_range":[7500,10000]},"test_method":"Plot win-rate and TTK heatmaps over boss HP and build.","confidence":0.60,"status":"untested"}
+  ],
+  "config_refs":{"mechanics":"../configs/mechanics.json","builds":"../configs/builds.json","skills":"../configs/skills.json","enemies":"../configs/enemies.json","bosses":"../configs/bosses.json"},
+  "scenarios":[{"id":"dummy_baseline","player_builds":["balanced_vanguard","glass_cannon","fortress_controller"],"enemy_id":"training_dummy","bot":"optimal_rotation","runs":100},{"id":"standard_encounter","player_builds":["balanced_vanguard","glass_cannon","fortress_controller"],"enemy_id":"iron_skirmisher","bot":"aggressive","runs":100},{"id":"boss_sweep","player_builds":["balanced_vanguard","glass_cannon","fortress_controller"],"enemy_id":"clockwork_tyrant","bot":"optimal_rotation","runs":1000},{"id":"iframe_comparison","player_builds":["fortress_controller"],"enemy_id":"clockwork_tyrant","bot":"defensive","overrides":{"player.stats.iframe":[0.3,0.5]},"paired_seed":true,"runs":1000}],
+  "execution":{"runs":[1,100,10000],"default_runs":1000,"seed_policy":"base_seed + run_index","stop_on_death":true,"record_replay":true,"replay_max_events":2000,"event_types":["AttackStarted","Hit","Damage","Critical","Dodge","BuffApplied","BuffExpired","SkillCast","Death","PhaseChanged"],"result_fields":["win_rate","dps","ttk","damage_taken","skill_usage","deaths","critical_rate","dodge_rate","phase_reached"]},
+  "sweep":"sweep_001","results":{"status":"pending","artifacts":["demo_results.json","balance_sweep.csv","replay_sample.json","win_rate_heatmap.png","ttk_heatmap.png","damage_vs_boss_hp_heatmap.png","damage_vs_boss_hp_win_rate_heatmap.png","demo_report.md"]},"conclusion":null
+}

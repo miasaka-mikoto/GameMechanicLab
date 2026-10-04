@@ -1,0 +1,98 @@
+{
+  "baseline": "baseline",
+  "runs": 100,
+  "seed": 20261004,
+  "paired_seed": true,
+  "formula_rows": [
+    {
+      "runs": 100,
+      "wins": 1,
+      "losses": 99,
+      "win_rate": 0.01,
+      "average_ttk": 24.52780611899932,
+      "median_ttk": 24.52780611899932,
+      "p95_ttk": 24.52780611899932,
+      "average_dps": 360.55310560882214,
+      "average_damage_taken": 1476.8838499999997,
+      "skill_usage": {
+        "basic_strike": 2786,
+        "arcane_bolt": 1302,
+        "power_slash": 645,
+        "guardian_pulse": 222
+      },
+      "deaths": 99,
+      "player_deaths": 99,
+      "seed": 20261004,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 24.52780611899932,
+      "dps": 360.55310560882214,
+      "damage_taken": 1476.8838499999997,
+      "index": 0,
+      "formula_id": "baseline",
+      "formula_input": "attack * multiplier",
+      "formula": "attack * multiplier",
+      "paired_seed": true,
+      "delta_vs_baseline": {
+        "win_rate": 0.0,
+        "average_ttk": 0.0,
+        "median_ttk": 0.0,
+        "average_dps": 0.0,
+        "average_damage_taken": 0.0,
+        "deaths": 0.0
+      }
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 40.253513969205244,
+      "median_ttk": 40.38002694541767,
+      "p95_ttk": 42.51484936074745,
+      "average_dps": 250.769950154587,
+      "average_damage_taken": 628.5513399999999,
+      "skill_usage": {
+        "basic_strike": 5094,
+        "arcane_bolt": 2449,
+        "power_slash": 1160,
+        "guardian_pulse": 424
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20261004,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 40.253513969205244,
+      "dps": 250.769950154587,
+      "damage_taken": 628.5513399999999,
+      "index": 1,
+      "formula_id": "armored",
+      "formula_input": "max(0, attack * multiplier - defense * 1.2)",
+      "formula": "max(0, attack * multiplier - defense * 1.2)",
+      "paired_seed": true,
+      "delta_vs_baseline": {
+        "win_rate": 0.99,
+        "average_ttk": 15.725707850205925,
+        "median_ttk": 15.85222082641835,
+        "average_dps": -109.78315545423513,
+        "average_damage_taken": -848.3325099999998,
+        "deaths": -99.0
+      }
+    }
+  ],
+  "baseline_metrics": {
+    "win_rate": 0.01,
+    "average_ttk": 24.52780611899932,
+    "median_ttk": 24.52780611899932,
+    "average_dps": 360.55310560882214,
+    "average_damage_taken": 1476.8838499999997,
+    "deaths": 99
+  },
+  "metrics": [
+    "win_rate",
+    "average_ttk",
+    "median_ttk",
+    "average_dps",
+    "average_damage_taken",
+    "deaths"
+  ]
+}

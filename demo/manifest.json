@@ -1,0 +1,18 @@
+{
+  "project": "Game Mechanic Lab",
+  "project_cn": "游戏机制与数值实验室",
+  "experiment": "demo/experiment.json",
+  "sweep": "demo/sweep.json",
+  "configs": {
+    "mechanics": "configs/mechanics.json",
+    "builds": "configs/builds.json",
+    "skills": "configs/skills.json",
+    "enemies": "configs/enemies.json",
+    "bosses": "configs/bosses.json"
+  },
+  "demo_counts": {"builds": 3, "skills": 5, "enemies": 3, "bosses": 1},
+  "entry_scenario": "boss_sweep",
+  "default_runs": 1000,
+  "cli_default_runs": 100,
+  "all_run_sizes": [1, 100, 10000]
+}

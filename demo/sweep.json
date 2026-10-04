@@ -1,0 +1,7 @@
+{
+  "version":"1.0","id":"sweep_001","name":"Boss HP × Build Balance Sweep","experiment_id":"demo_balance_001","mode":"cartesian_product","seed":20261004,"replicates_per_cell":1000,"max_combinations":36,
+  "dimensions":[{"name":"boss_hp","path":"bosses.clockwork_tyrant.stats.hp","values":[5000,7500,10000,12500]},{"name":"player_build","path":"scenario.player_build","values":["balanced_vanguard","glass_cannon","fortress_controller"]},{"name":"damage_multiplier","path":"formulas.damage_multiplier","values":[1.0,1.1,1.2]},{"name":"player_i_frame","path":"scenario.player_i_frame","values":[0.3,0.5]}],
+  "filters":["damage_multiplier == 1.0 or player_i_frame == 0.30","boss_hp >= 5000"],"metrics":["win_rate","median_ttk","mean_dps","mean_damage_taken","phase_reached"],"group_by":["boss_hp","player_build"],
+  "heatmaps":[{"id":"win_rate_heatmap","x":"boss_hp","y":"player_build","value":"win_rate","color_scale":["#b91c1c","#f59e0b","#15803d"]},{"id":"ttk_heatmap","x":"boss_hp","y":"player_build","value":"median_ttk","color_scale":["#15803d","#f59e0b","#b91c1c"]}],
+  "acceptance":{"healthy_win_rate":[0.45,0.85],"healthy_median_ttk_seconds":[25,55],"flag_if":["win_rate < 0.20","win_rate > 0.98","median_ttk > 100","mean_dps > 1000"]},"outputs":{"table":"demo_results.json","csv":"balance_sweep.csv","charts":["win_rate_heatmap.png","ttk_heatmap.png","damage_vs_boss_hp_heatmap.png","damage_vs_boss_hp_win_rate_heatmap.png"],"report":"demo_report.md"}
+}

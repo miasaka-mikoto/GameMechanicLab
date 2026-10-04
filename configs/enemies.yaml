@@ -1,0 +1,31 @@
+version: "1.0"
+enemies:
+  - id: training_dummy
+    name: "Training Dummy"
+    category: dummy
+    stats: {hp: 1800, attack: 0, defense: 20, move_speed: 0, attack_speed: 0, critical_chance: 0, critical: 0, critical_multiplier: 1.5, dodge_chance: 0, dodge: 0, i_frame: 0, iframe: 0}
+    ai_style: passive
+    skills: []
+    resistances: {physical: 0.0, arcane: 0.0, fire: 0.0, control: 0.0}
+    phases: []
+  - id: iron_skirmisher
+    name: "Iron Skirmisher"
+    category: melee
+    stats: {hp: 2400, attack: 78, defense: 38, move_speed: 4.5, attack_speed: 1.0, critical_chance: 0.08, critical: 0.08, critical_multiplier: 1.5, dodge_chance: 0.10, dodge: 0.10, i_frame: 0.15, iframe: 0.15}
+    ai_style: aggressive
+    skills: [enemy_jab, enemy_charge]
+    resistances: {physical: 0.10, arcane: -0.05, fire: 0.0, control: 0.10}
+    phases: []
+  - id: ember_caster
+    name: "Ember Caster"
+    category: ranged
+    stats: {hp: 1500, attack: 105, defense: 16, move_speed: 3.0, attack_speed: 0.8, critical_chance: 0.12, critical: 0.12, critical_multiplier: 1.5, dodge_chance: 0.05, dodge: 0.05, i_frame: 0.10, iframe: 0.10}
+    ai_style: defensive
+    skills: [enemy_firebolt, enemy_burning_field]
+    resistances: {physical: -0.10, arcane: 0.20, fire: 0.60, control: 0.0}
+    phases: []
+enemy_skills:
+  enemy_jab: {id: enemy_jab, name: "Jab", multiplier: 0.85, cooldown: 1.0, cast_time: 0.1, range: 2.0, damage_type: physical, hitstun: 0.12, knockback: 0.3}
+  enemy_charge: {id: enemy_charge, name: "Charge", multiplier: 1.30, cooldown: 4.0, cast_time: 0.4, range: 4.0, damage_type: physical, hitstun: 0.35, knockback: 1.8}
+  enemy_firebolt: {id: enemy_firebolt, name: "Firebolt", multiplier: 0.95, cooldown: 1.8, cast_time: 0.25, range: 10.0, damage_type: fire, hitstun: 0.1, knockback: 0.2}
+  enemy_burning_field: {id: enemy_burning_field, name: "Burning Field", multiplier: 0.55, cooldown: 6.0, cast_time: 0.5, range: 7.0, aoe: 2.5, aoe_radius: 2.5, damage_type: fire, hitstun: 0.2, knockback: 0.5, status_effects: [{id: burn, kind: dot, duration: 4.0, tick_interval: 1.0, magnitude: 8.0, chance: 1.0}]}

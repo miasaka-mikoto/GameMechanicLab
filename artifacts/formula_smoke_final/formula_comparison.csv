@@ -1,0 +1,3 @@
+index,formula_id,formula,runs,win_rate,average_ttk,median_ttk,average_dps,average_damage_taken,deaths,seed,delta_win_rate,delta_average_ttk,delta_median_ttk,delta_average_dps,delta_average_damage_taken,delta_deaths
+0,baseline,attack * multiplier,100,0.01,24.52780611899932,24.52780611899932,360.55310560882214,1476.8838499999997,99,20261004,0.0,0.0,0.0,0.0,0.0,0.0
+1,armored,"max(0, attack * multiplier - defense * 1.2)",100,1.0,40.253513969205244,40.38002694541767,250.769950154587,628.5513399999999,0,20261004,0.99,15.725707850205925,15.85222082641835,-109.78315545423513,-848.3325099999998,-99.0

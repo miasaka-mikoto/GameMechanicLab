@@ -1,0 +1,855 @@
+[
+  {
+    "time": 0.0,
+    "type": "FightStarted",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "player": "balanced_vanguard",
+      "enemy": "training_dummy"
+    }
+  },
+  {
+    "time": 0.0,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 0.0,
+    "type": "AttackStarted",
+    "source_id": "training_dummy",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.05,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.05,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 125.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 125.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 0.05,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 1,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.05,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.05,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.12,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.05,
+    "type": "Hit",
+    "source_id": "training_dummy",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.05,
+    "type": "Damage",
+    "source_id": "training_dummy",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 0.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 0.25,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 0.52375,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.52375,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 175.75,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 175.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 0.52375,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 2,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.52375,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.52375,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.16,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.61,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 0.66,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.66,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 187.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.66,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 187.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 187.5,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 0.66,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 3,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.66,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.66,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.12,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.86,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 1.11,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.11,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 328.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 328.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 1.11,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 4,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.11,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.11,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.45,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.11,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 1.56,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 1.61,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.61,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 137.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 137.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 1.61,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.61,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.61,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.12,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.81,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 2.08375,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.08375,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 187.75,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 187.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 2.08375,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 6,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.08375,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.08375,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.16,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.17,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 2.22,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.22,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 137.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 137.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 2.22,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 7,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.22,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.22,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.12,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.42,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "guardian_pulse",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 7.6,
+      "target": "self",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 2.62,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 90.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "shield",
+      "kind": "shield",
+      "shield": 90.0
+    }
+  },
+  {
+    "time": 2.62,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration",
+      "kind": "hot",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 2.62,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "haste",
+      "kind": "buff",
+      "duration": 3.0
+    }
+  },
+  {
+    "time": 2.77,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 2.82,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.82,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 205.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.82,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 205.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 205.5,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 2.82,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 8,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.82,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.82,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.12,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.02,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 3.29375,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.29375,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 187.75,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 187.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 3.29375,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 9,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.29375,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.29375,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.16,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.38,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 3.43,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.43,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 137.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 137.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 3.43,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 10,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.43,
+    "type": "Death",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.43,
+    "type": "FightEnded",
+    "source_id": "balanced_vanguard",
+    "target_id": "training_dummy",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "winner": "balanced_vanguard",
+      "reason": "enemy_defeated"
+    }
+  }
+]

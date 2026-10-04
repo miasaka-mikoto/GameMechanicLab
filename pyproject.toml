@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "game-mechanic-lab"
+version = "0.1.0"
+description = "Game Mechanic Lab / 游戏机制与数值实验室"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Game Mechanic Lab contributors" }
+]
+# The runtime is intentionally usable with the Python standard library only.
+# Charts use matplotlib when it is installed and fall back to Tk Canvas.
+dependencies = []
+
+[project.optional-dependencies]
+charts = ["matplotlib>=3.8"]
+yaml = ["PyYAML>=6.0"]
+dev = [
+  "pytest>=8.0",
+  "matplotlib>=3.8",
+  "PyYAML>=6.0",
+  "pyinstaller>=6.0"
+]
+
+[project.scripts]
+game-mechanic-lab = "app:main"
+
+[tool.setuptools]
+py-modules = ["app", "run_demo"]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["gamemechaniclab*"]
+
+[tool.setuptools.data-files]
+configs = [
+  "configs/README.md",
+  "configs/bosses.json",
+  "configs/bosses.yaml",
+  "configs/builds.json",
+  "configs/builds.yaml",
+  "configs/enemies.json",
+  "configs/enemies.yaml",
+  "configs/mechanics.json",
+  "configs/mechanics.yaml",
+  "configs/skills.json",
+  "configs/skills.yaml"
+]
+demo = [
+  "demo/README.md",
+  "demo/experiment.json",
+  "demo/experiment.yaml",
+  "demo/manifest.json",
+  "demo/sweep.json",
+  "demo/sweep.yaml"
+]
+docs = [
+  "docs/ACCEPTANCE_TESTS.md",
+  "docs/EXPERIMENT_REPORT_TEMPLATE.md",
+  "docs/USER_GUIDE_CN.md",
+  "docs/RELEASE_MANIFEST.md",
+  "docs/capture_screenshots.py",
+  "docs/render_headless_screenshots.py"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

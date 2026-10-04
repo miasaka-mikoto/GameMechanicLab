@@ -1,0 +1,92 @@
+version: "1.0"
+builds:
+  - id: balanced_vanguard
+    name: "Balanced Vanguard"
+    role: balanced
+    bot: optimal_rotation
+    stats:
+      hp: 1200
+      attack: 125
+      defense: 42
+      critical_chance: 0.15
+      critical: 0.15
+      crit: 0.15
+      critical_multiplier: 1.50
+      attack_speed: 1.20
+      move_speed: 5.0
+      cooldown_reduction: 0.05
+      mana: 160
+      mana_regen: 8.0
+      stamina: 100
+      stamina_regen: 18.0
+      i_frame: 0.30
+      iframe: 0.30
+      dodge_chance: 0.15
+      dodge: 0.15
+      knockback_resistance: 0.10
+    equipment:
+      - {id: iron_blade, name: "Iron Blade", modifiers: {attack: 20}}
+      - {id: travel_coat, name: "Travel Coat", modifiers: {hp: 120, move_speed: 0.4}}
+    skills: [basic_strike, power_slash, arcane_bolt, guardian_pulse]
+    passives:
+      - {id: steady_hand, name: "Steady Hand", effects: {critical_chance: 0.05}}
+  - id: glass_cannon
+    name: "Glass Cannon"
+    role: burst
+    bot: aggressive
+    stats:
+      hp: 780
+      attack: 185
+      defense: 18
+      critical_chance: 0.35
+      critical: 0.35
+      crit: 0.35
+      critical_multiplier: 1.85
+      attack_speed: 1.45
+      move_speed: 5.8
+      cooldown_reduction: 0.18
+      mana: 220
+      mana_regen: 11.0
+      stamina: 80
+      stamina_regen: 14.0
+      i_frame: 0.30
+      iframe: 0.30
+      dodge_chance: 0.12
+      dodge: 0.12
+      knockback_resistance: 0.0
+    equipment:
+      - {id: storm_focus, name: "Storm Focus", modifiers: {attack: 42, critical_chance: 0.08}}
+      - {id: brittle_cape, name: "Brittle Cape", modifiers: {cooldown_reduction: 0.08, hp: -100}}
+    skills: [basic_strike, power_slash, arcane_bolt, ember_trap]
+    passives:
+      - {id: executioner, name: "Executioner", effects: {critical_multiplier: 0.15, damage_below_half_hp: 0.12}}
+  - id: fortress_controller
+    name: "Fortress Controller"
+    role: control
+    bot: defensive
+    stats:
+      hp: 1900
+      attack: 95
+      defense: 85
+      critical_chance: 0.08
+      critical: 0.08
+      crit: 0.08
+      critical_multiplier: 1.50
+      attack_speed: 0.90
+      move_speed: 4.2
+      cooldown_reduction: 0.03
+      mana: 180
+      mana_regen: 9.0
+      stamina: 130
+      stamina_regen: 22.0
+      i_frame: 0.50
+      iframe: 0.50
+      dodge_chance: 0.08
+      dodge: 0.08
+      knockback_resistance: 0.35
+    equipment:
+      - {id: bulwark_mace, name: "Bulwark Mace", modifiers: {attack: 15, hitstun_bonus: 0.12}}
+      - {id: aegis_plate, name: "Aegis Plate", modifiers: {hp: 300, defense: 25, move_speed: -0.3}}
+    skills: [basic_strike, power_slash, ember_trap, guardian_pulse]
+    passives:
+      - {id: iron_will, name: "Iron Will", effects: {hitstun_resistance: 0.30, shield_received: 0.15}}

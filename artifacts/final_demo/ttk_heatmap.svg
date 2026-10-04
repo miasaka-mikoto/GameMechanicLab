@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="268" viewBox="0 0 720 268">
+<rect width="100%" height="100%" fill="#0b1220"/>
+<style>text{font-family:Segoe UI,Arial,sans-serif;fill:#e8f0fa;font-size:12px}.muted{fill:#9aacc4;font-size:11px}.title{font-size:18px;font-weight:600}</style>
+<text class="title" x="22" y="32">Boss HP × Player Build — Median TTK</text>
+<text class="muted" x="210" y="60">5000</text>
+<text class="muted" x="330" y="60">7500</text>
+<text class="muted" x="450" y="60">10000</text>
+<text class="muted" x="570" y="60">12500</text>
+<text class="muted" x="16" y="109">Balanced Vanguard</text>
+<rect x="180" y="78" width="114" height="46" rx="6" fill="rgb(37,91,123)"/>
+<text x="218" y="109">18.7s</text>
+<rect x="300" y="78" width="114" height="46" rx="6" fill="rgb(41,108,135)"/>
+<text x="338" y="109">28.0s</text>
+<rect x="420" y="78" width="114" height="46" rx="6" fill="rgb(46,125,146)"/>
+<text x="458" y="109">37.4s</text>
+<rect x="540" y="78" width="114" height="46" rx="6" fill="rgb(50,143,159)"/>
+<text x="578" y="109">47.2s</text>
+<text class="muted" x="16" y="161">Fortress Controller</text>
+<rect x="180" y="130" width="114" height="46" rx="6" fill="rgb(45,124,145)"/>
+<text x="218" y="161">36.5s</text>
+<rect x="300" y="130" width="114" height="46" rx="6" fill="rgb(54,159,170)"/>
+<text x="338" y="161">55.8s</text>
+<rect x="420" y="130" width="114" height="46" rx="6" fill="rgb(63,192,192)"/>
+<text x="458" y="161">73.9s</text>
+<rect x="540" y="130" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="578" y="161">93.2s</text>
+<text class="muted" x="16" y="213">Glass Cannon</text>
+<rect x="180" y="182" width="114" height="46" rx="6" fill="rgb(31,71,110)"/>
+<text x="218" y="213">8.1s</text>
+<rect x="300" y="182" width="114" height="46" rx="6" fill="rgb(33,77,114)"/>
+<text x="338" y="213">11.2s</text>
+<rect x="420" y="182" width="114" height="46" rx="6" fill="#1b2c45"/>
+<rect x="540" y="182" width="114" height="46" rx="6" fill="#1b2c45"/>
+</svg>

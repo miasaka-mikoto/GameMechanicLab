@@ -1,0 +1,36 @@
+{
+  "x": "enemy.stats.hp",
+  "y": "build",
+  "metric": "win_rate",
+  "x_values": [
+    5000,
+    7500,
+    10000,
+    12500
+  ],
+  "y_values": [
+    "Balanced Vanguard",
+    "Fortress Controller",
+    "Glass Cannon"
+  ],
+  "matrix": [
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.93,
+      0.28,
+      0.0,
+      0.0
+    ]
+  ]
+}

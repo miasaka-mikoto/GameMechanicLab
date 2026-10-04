@@ -1,0 +1,8357 @@
+[
+  {
+    "time": 0.0,
+    "type": "FightStarted",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "player": "balanced_vanguard",
+      "enemy": "clockwork_tyrant"
+    }
+  },
+  {
+    "time": 0.0,
+    "type": "PhaseChanged",
+    "source_id": "clockwork_tyrant",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "phase_id": "phase_1",
+      "phase_index": 0,
+      "modifiers": {
+        "attack_multiplier": 1.0,
+        "defense_multiplier": 1.0
+      }
+    }
+  },
+  {
+    "time": 0.0,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 0.0,
+    "type": "SkillCast",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 2.5,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 3.5
+    }
+  },
+  {
+    "time": 0.05,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.05,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 66.4,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 83.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 0.05,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 1,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.05,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.05,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.25,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 0.35,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.35,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 21.249999999999993,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "raw": 21.249999999999993,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 0.35,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.35,
+    "type": "Knockback",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1.8,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.35,
+    "type": "Hitstun",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.45,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.35,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.52375,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.52375,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 107.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 133.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 0.52375,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.52375,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.52375,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.8,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 0.85,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.85,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 124.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.85,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 99.60000000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 124.5,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 0.85,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 3,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.85,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 0.85,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.05,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 1.3,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.3,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 228.8,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 286.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 1.3,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 4,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.3,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.3,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.1575,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.3,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 1.5264705882,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.5764705882,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.5764705882,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 13.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 13.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 1.5764705882,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 2,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.75,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 1.8,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.8,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 1.8,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.8,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 1.8,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.0,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 2.27375,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.27375,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 116.60000000000001,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 145.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 2.27375,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 6,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.27375,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.27375,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.36,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 2.41,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.41,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 142.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.41,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 114.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 142.5,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 2.41,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 7,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.41,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.41,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.61,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "guardian_pulse",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 7.6,
+      "target": "self",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 2.7029411764,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.7529411764,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.7529411764,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 13.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 13.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 2.7529411764,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 3,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 2.81,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 90.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "shield",
+      "kind": "shield",
+      "shield": 90.0
+    }
+  },
+  {
+    "time": 2.81,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration",
+      "kind": "hot",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 2.81,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "haste",
+      "kind": "buff",
+      "duration": 3.0
+    }
+  },
+  {
+    "time": 2.96,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 3.01,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.01,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 3.01,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 8,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.01,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.01,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.21,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 3.48375,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.48375,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 116.60000000000001,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 145.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 3.48375,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 9,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.48375,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.48375,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.57,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 3.62,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.62,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 3.62,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 10,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.62,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.62,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.81,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 3.82,
+    "type": "AttackStarted",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.87,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.87,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 3.87,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 11,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.8794117646,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.9294117646,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.9294117646,
+    "type": "Critical",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 22.75,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.9294117646,
+    "type": "ShieldAbsorbed",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 22.75,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 3.9294117646,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 22.75,
+      "critical": true,
+      "absorbed": 22.75,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 4.3717241379,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 4.4217241379,
+    "type": "Dodge",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "reason": "dodge_chance",
+      "chance": 0.05
+    }
+  },
+  {
+    "time": 4.6217241379,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 4.81,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 4.8954741379,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 4.8954741379,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 218.625,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 4.8954741379,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 174.9,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 218.625,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 4.8954741379,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 1,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 4.8954741379,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 4.8954741379,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 4.9817241379,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 5.0317241379,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.0317241379,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 5.0317241379,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.0317241379,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.0317241379,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.0737241379,
+    "type": "SkillCast",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 2.5,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 3.5
+    }
+  },
+  {
+    "time": 5.2317241379,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 5.3,
+    "type": "DebuffExpired",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break"
+    }
+  },
+  {
+    "time": 5.4237241379,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.4237241379,
+    "type": "ShieldAbsorbed",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 21.249999999999993,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.4237241379,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "raw": 21.249999999999993,
+      "critical": false,
+      "absorbed": 21.249999999999993,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 5.4237241379,
+    "type": "Knockback",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1.8,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.4237241379,
+    "type": "Hitstun",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.45,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.4237241379,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.4817241379,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.4817241379,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 228.8,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 286.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 5.4817241379,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 3,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.4817241379,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.4817241379,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.1575,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.4817241379,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 5.81,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 5.81,
+    "type": "BuffExpired",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "haste"
+    }
+  },
+  {
+    "time": 5.9317241379,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 5.9817241379,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.9817241379,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 5.9817241379,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 4,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.9817241379,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 5.9817241379,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.1817241379,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 6.4554741379,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.4554741379,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 116.60000000000001,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 145.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 6.4554741379,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 5,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.4554741379,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.4554741379,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.5417241379,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 6.5917241379,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.5917241379,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 6.5917241379,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 6,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.5917241379,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.5917241379,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.6337241379,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.6837241379,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.6837241379,
+    "type": "ShieldAbsorbed",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 13.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.6837241379,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 13.0,
+      "critical": false,
+      "absorbed": 13.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 6.7917241379,
+    "type": "AttackStarted",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.81,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 5.25,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 6.81,
+    "type": "BuffExpired",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 6.8417241379,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 6.8417241379,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 6.8417241379,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 7,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 7.6250574712,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 7.6750574712,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 7.6750574712,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 7.6750574712,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 8,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 7.6750574712,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 7.6750574712,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 7.81,
+    "type": "BuffExpired",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 33.00000000000001,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "shield",
+      "kind": "shield"
+    }
+  },
+  {
+    "time": 7.8101947261,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 7.8601947261,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 7.8601947261,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 13.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 13.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 7.8601947261,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 4,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 7.8750574712,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 8.1488074712,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.1488074712,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 116.60000000000001,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 145.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 8.1488074712,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 9,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.1488074712,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.1488074712,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.2350574712,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 8.2850574712,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.2850574712,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 8.2850574712,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 10,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.2850574712,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.2850574712,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.4850574712,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 8.7350574712,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.7350574712,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 238.4,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 298.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 8.7350574712,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 11,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.7350574712,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.7350574712,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.1575,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 8.7350574712,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 8.9866653143,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.0366653143,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.0366653143,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 13.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 13.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 9.0366653143,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 5,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.1850574712,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 9.2350574712,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.2350574712,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 9.2350574712,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 12,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.2350574712,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.2350574712,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.4350574712,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 9.7088074712,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.7088074712,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 218.625,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.7088074712,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 174.9,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 218.625,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 9.7088074712,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 13,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.7088074712,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.7088074712,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.7950574712,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 9.8450574712,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.8450574712,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 9.8450574712,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 14,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.8450574712,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 9.8450574712,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 10.0450574712,
+    "type": "AttackStarted",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 10.0950574712,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 10.0950574712,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 10.0950574712,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 15,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 10.1631359025,
+    "type": "SkillCast",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 2.5,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 3.5
+    }
+  },
+  {
+    "time": 10.5131359025,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 10.5131359025,
+    "type": "Critical",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 37.187499999999986,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 10.5131359025,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 37.187499999999986,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "raw": 37.187499999999986,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 10.5131359025,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 6,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 10.5131359025,
+    "type": "Knockback",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1.8,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 10.5131359025,
+    "type": "Hitstun",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.45,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 10.5131359025,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 10.5631359025,
+    "type": "Dodge",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "reason": "dodge_chance",
+      "chance": 0.15
+    }
+  },
+  {
+    "time": 10.9631359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 11.0131359025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.0131359025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 11.0131359025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 16,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.0131359025,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.0131359025,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.2131359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 11.4868859025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.4868859025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 116.60000000000001,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 145.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 11.4868859025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 17,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.4868859025,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.4868859025,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.5731359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 11.6231359025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.6231359025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 11.6231359025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 18,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.6231359025,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.6231359025,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.6896064907,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.7396064907,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.7396064907,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 13.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 13.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 11.7396064907,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 11.8231359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 12.0731359025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 12.0731359025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 238.4,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 298.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 12.0731359025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 19,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 12.0731359025,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 12.0731359025,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.1575,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 12.0731359025,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 12.5231359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 12.5731359025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 12.5731359025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 76.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 95.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 12.5731359025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 20,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 12.5731359025,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 12.5731359025,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 12.7731359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 12.8660770789,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 12.9160770789,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 12.9160770789,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 13.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 13.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 12.9160770789,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 2,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.0468859025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.0468859025,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 218.625,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.0468859025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 174.9,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 218.625,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 13.0468859025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 21,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.0468859025,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.0468859025,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.0468859025,
+    "type": "BuffApplied",
+    "source_id": "clockwork_tyrant",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "haste",
+      "kind": "buff",
+      "duration": 3.0
+    }
+  },
+  {
+    "time": 13.0468859025,
+    "type": "PhaseChanged",
+    "source_id": "clockwork_tyrant",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "phase_id": "phase_2",
+      "phase_index": 1,
+      "modifiers": {
+        "attack_multiplier": 1.18,
+        "defense_multiplier": 0.92
+      }
+    }
+  },
+  {
+    "time": 13.1331359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 13.1831359025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.1831359025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 13.1831359025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 22,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.1831359025,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.1831359025,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.3831359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "guardian_pulse",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 7.6,
+      "target": "self",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 13.5831359025,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 90.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "shield",
+      "kind": "shield",
+      "shield": 90.0
+    }
+  },
+  {
+    "time": 13.5831359025,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration",
+      "kind": "hot",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 13.5831359025,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "haste",
+      "kind": "buff",
+      "duration": 3.0
+    }
+  },
+  {
+    "time": 13.7331359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 13.7831359025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.7831359025,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 148.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.7831359025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 118.80000000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 148.5,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 13.7831359025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 23,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.7831359025,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.7831359025,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 13.9831359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 14.0425476671,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.0925476671,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.0925476671,
+    "type": "ShieldAbsorbed",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 22.89999999999999,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.0925476671,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 22.89999999999999,
+      "critical": false,
+      "absorbed": 22.89999999999999,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 14.2568859025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.2568859025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 119.80000000000001,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 149.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 14.2568859025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 24,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.2568859025,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.2568859025,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.3431359025,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 14.3931359025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.3931359025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 14.3931359025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 25,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.3931359025,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.3931359025,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.5831359025,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 14.5931359025,
+    "type": "AttackStarted",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.6431359025,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.6431359025,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 14.6431359025,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 26,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 14.7698203944,
+    "type": "SkillCast",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 2.5,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 3.5
+    }
+  },
+  {
+    "time": 15.1198203944,
+    "type": "Dodge",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "reason": "dodge_chance",
+      "chance": 0.15
+    }
+  },
+  {
+    "time": 15.1198203944,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.1448600404,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 15.1698203944,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.1698203944,
+    "type": "ShieldAbsorbed",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 22.89999999999999,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.1698203944,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 22.89999999999999,
+      "critical": false,
+      "absorbed": 22.89999999999999,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 15.1948600404,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.1948600404,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 148.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.1948600404,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 118.80000000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 148.5,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 15.1948600404,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 27,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.1948600404,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.1948600404,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.3948600404,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 15.5831359025,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 15.6686100404,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.6686100404,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 119.80000000000001,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 149.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 15.6686100404,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 28,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.6686100404,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.6686100404,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.7548600404,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 15.8048600404,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.8048600404,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 15.8048600404,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 29,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.8048600404,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.8048600404,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.8470931217,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.8970931217,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.8970931217,
+    "type": "ShieldAbsorbed",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 22.89999999999999,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 15.8970931217,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 22.89999999999999,
+      "critical": false,
+      "absorbed": 22.89999999999999,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 16.0048600404,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 16.0468859025,
+    "type": "BuffExpired",
+    "source_id": "clockwork_tyrant",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "haste"
+    }
+  },
+  {
+    "time": 16.0731359025,
+    "type": "DebuffExpired",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break"
+    }
+  },
+  {
+    "time": 16.2548600404,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.2548600404,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 232.768,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 290.96,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 16.2548600404,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 30,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.2548600404,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.2548600404,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.1575,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.2548600404,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 16.574365849,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.5831359025,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 16.5831359025,
+    "type": "BuffExpired",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "haste"
+    }
+  },
+  {
+    "time": 16.624365849,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.624365849,
+    "type": "ShieldAbsorbed",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 21.300000000000026,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.624365849,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1.599999999999966,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 22.89999999999999,
+      "critical": false,
+      "absorbed": 21.300000000000026,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 16.624365849,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.7048600404,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 16.7548600404,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.7548600404,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 16.7548600404,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 31,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.7548600404,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.7548600404,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 16.9548600404,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 17.2286100404,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.2286100404,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 224.625,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.2286100404,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 179.70000000000002,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 224.625,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 17.2286100404,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 32,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.2286100404,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.2286100404,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.3148600404,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 17.3648600404,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.3648600404,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 17.3648600404,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 33,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.3648600404,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.3648600404,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.5648600404,
+    "type": "AttackStarted",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.5831359025,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 17.5831359025,
+    "type": "BuffExpired",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 17.6148600404,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.6148600404,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 17.6148600404,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 34,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.7508364372,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.8008364372,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 17.8008364372,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 22.89999999999999,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 22.89999999999999,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 17.8008364372,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 2,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 18.3981933737,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 18.4481933737,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 18.4481933737,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 18.4481933737,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 35,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 18.4481933737,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 18.4481933737,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 18.6481933737,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 18.9219433737,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 18.9219433737,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 119.80000000000001,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 149.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 18.9219433737,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 36,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 18.9219433737,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 18.9219433737,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 18.9779433737,
+    "type": "SkillCast",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 2.5,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 3.5
+    }
+  },
+  {
+    "time": 19.0081933737,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 19.0581933737,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.0581933737,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 19.0581933737,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 37,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.0581933737,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.0581933737,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.2581933737,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 19.3279433737,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.3279433737,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 32.63499999999999,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "raw": 32.63499999999999,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 19.3279433737,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 3,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.3279433737,
+    "type": "Knockback",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1.8,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.3279433737,
+    "type": "Hitstun",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.45,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.3279433737,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.5081933737,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.5081933737,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 241.60000000000002,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 302.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 19.5081933737,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 38,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.5081933737,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.5081933737,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.1575,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 19.5081933737,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 19.9581933737,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 20.0081933737,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.0081933737,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 20.0081933737,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 39,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.0081933737,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.0081933737,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.2081933737,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 20.4819433737,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.4819433737,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 224.625,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.4819433737,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 179.70000000000002,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 224.625,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 20.4819433737,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 40,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.4819433737,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.4819433737,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.5379433737,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.5681933737,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 20.5879433737,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.5879433737,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 22.89999999999999,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 22.89999999999999,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 20.5879433737,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 4,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.6181933737,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.6181933737,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 148.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.6181933737,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 118.80000000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 148.5,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 20.6181933737,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 41,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.6181933737,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.6181933737,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.8181933737,
+    "type": "AttackStarted",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.8681933737,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.8681933737,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 148.5,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 20.8681933737,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 118.80000000000001,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 148.5,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 20.8681933737,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 42,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 21.651526707,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 21.701526707,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 21.701526707,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 21.701526707,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 43,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 21.701526707,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 21.701526707,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 21.743526707,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 21.793526707,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 21.793526707,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 22.89999999999999,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 22.89999999999999,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 21.793526707,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 5,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 21.901526707,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 22.175276707,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.175276707,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 119.80000000000001,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 149.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 22.175276707,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 44,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.175276707,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.175276707,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.261526707,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 22.311526707,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.311526707,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 22.311526707,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 45,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.311526707,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.311526707,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.511526707,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 22.761526707,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.761526707,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 241.60000000000002,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 302.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 22.761526707,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 46,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.761526707,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.761526707,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.1575,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 22.761526707,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 22.9199972952,
+    "type": "SkillCast",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 2.5,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 3.5
+    }
+  },
+  {
+    "time": 23.211526707,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 23.261526707,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.261526707,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 148.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.261526707,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 118.80000000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 148.5,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 23.261526707,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 47,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.261526707,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.261526707,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.2699972952,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.2699972952,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 32.63499999999999,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "raw": 32.63499999999999,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 23.2699972952,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 6,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.2699972952,
+    "type": "Knockback",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1.8,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.2699972952,
+    "type": "Hitstun",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.45,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.303526707,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.7199972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 23.7699972952,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.7699972952,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 148.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.7699972952,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 118.80000000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 148.5,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 23.7699972952,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 48,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.7699972952,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.7699972952,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 23.9699972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 24.2437472952,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.2437472952,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 119.80000000000001,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 149.75,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 24.2437472952,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 49,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.2437472952,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.2437472952,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.3299972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 24.3799972952,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.3799972952,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 79.2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 99.0,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 24.3799972952,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 50,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.3799972952,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.3799972952,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.3799972952,
+    "type": "DebuffApplied",
+    "source_id": "clockwork_tyrant",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 24.3799972952,
+    "type": "PhaseChanged",
+    "source_id": "clockwork_tyrant",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "phase_id": "phase_3",
+      "phase_index": 2,
+      "modifiers": {
+        "attack_multiplier": 1.4,
+        "defense_multiplier": 0.82
+      }
+    }
+  },
+  {
+    "time": 24.4799972952,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.5299972952,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.5299972952,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 48.86,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 48.86,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 24.5299972952,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 7,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.5799972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "guardian_pulse",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 7.6,
+      "target": "self",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 24.7799972952,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 90.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "shield",
+      "kind": "shield",
+      "shield": 90.0
+    }
+  },
+  {
+    "time": 24.7799972952,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration",
+      "kind": "hot",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 24.7799972952,
+    "type": "BuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "haste",
+      "kind": "buff",
+      "duration": 3.0
+    }
+  },
+  {
+    "time": 24.9299972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 24.9799972952,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.9799972952,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 24.9799972952,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 51,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.9799972952,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 24.9799972952,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.1799972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 25.4537472952,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.4537472952,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 126.424,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 158.03,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 25.4537472952,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 52,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.4537472952,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.4537472952,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.5399972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 25.5899972952,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.5899972952,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 25.5899972952,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 53,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.5899972952,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.5899972952,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.6564678834,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.7064678834,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.7064678834,
+    "type": "ShieldAbsorbed",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 48.86,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 25.7064678834,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 48.86,
+      "critical": false,
+      "absorbed": 48.86,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 25.7799972952,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 25.7899972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 26.0399972952,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 26.0399972952,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 248.224,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 310.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 26.0399972952,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 54,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 26.0399972952,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 26.0399972952,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.1575,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 26.0399972952,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 26.4899972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 26.5399972952,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 26.5399972952,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 26.5399972952,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 55,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 26.5399972952,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 26.5399972952,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 26.7399972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 26.7799972952,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 26.8329384716,
+    "type": "SkillCast",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 2.5,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 3.5
+    }
+  },
+  {
+    "time": 27.0137472952,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.0137472952,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 126.424,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 158.03,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 27.0137472952,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 56,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.0137472952,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.0137472952,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.0999972952,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 27.1499972952,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.1499972952,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 27.1499972952,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 57,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.1499972952,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.1499972952,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.1829384716,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.1829384716,
+    "type": "ShieldAbsorbed",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 41.14,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.1829384716,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 21.34899999999999,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "raw": 62.48899999999999,
+      "critical": false,
+      "absorbed": 41.14,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 27.1829384716,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 8,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.1829384716,
+    "type": "Knockback",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1.8,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.1829384716,
+    "type": "Hitstun",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.45,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.1919972952,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 27.6329384716,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 27.6829384716,
+    "type": "Dodge",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "reason": "dodge_chance",
+      "chance": 0.05
+    }
+  },
+  {
+    "time": 27.7799972952,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 27.7799972952,
+    "type": "BuffExpired",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "haste"
+    }
+  },
+  {
+    "time": 27.8829384716,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 28.1566884716,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.1566884716,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 126.424,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 158.03,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 28.1566884716,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 1,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.1566884716,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.1566884716,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.2429384716,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 28.2929384716,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.2929384716,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 28.2929384716,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.2929384716,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.2929384716,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.3684678834,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.4184678834,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.4184678834,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 48.86,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 48.86,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 28.4184678834,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 9,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.4929384716,
+    "type": "AttackStarted",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.5429384716,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.5429384716,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 28.5429384716,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 3,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 28.7799972952,
+    "type": "HotTick",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 14.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 28.7799972952,
+    "type": "BuffExpired",
+    "source_id": "balanced_vanguard",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "regeneration"
+    }
+  },
+  {
+    "time": 29.3262718049,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 29.3762718049,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.3762718049,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 160.92000000000002,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.3762718049,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 128.73600000000002,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 160.92000000000002,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 29.3762718049,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 4,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.3762718049,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.3762718049,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.5449384716,
+    "type": "SkillCast",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 2.5,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 3.5
+    }
+  },
+  {
+    "time": 29.5762718049,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 29.8500218049,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.8500218049,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 126.424,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 158.03,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 29.8500218049,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 5,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.8500218049,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.8500218049,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.8949384716,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.8949384716,
+    "type": "Critical",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 109.35574999999999,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.8949384716,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 109.35574999999999,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "raw": 109.35574999999999,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 29.8949384716,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 10,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.8949384716,
+    "type": "Knockback",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1.8,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.8949384716,
+    "type": "Hitstun",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.45,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 29.9060218049,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 30.0399972952,
+    "type": "DebuffExpired",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break"
+    }
+  },
+  {
+    "time": 30.3449384716,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 30.3949384716,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 30.3949384716,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 147.3408,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 30.3949384716,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 117.87264,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 147.3408,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 30.3949384716,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 6,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 30.3949384716,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 30.3949384716,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 30.5949384716,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 30.8449384716,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 30.8449384716,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 240.98176,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 301.2272,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 30.8449384716,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 7,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 30.8449384716,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 30.8449384716,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.1575,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 30.8449384716,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 31.0824923931,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.1324923931,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.1324923931,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 48.86,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 48.86,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 31.1324923931,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 11,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.2949384716,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 31.3449384716,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.3449384716,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 31.3449384716,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 8,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.3449384716,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.3449384716,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.5449384716,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 31.8186884716,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.8186884716,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 126.424,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 158.03,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 31.8186884716,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 9,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.8186884716,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.8186884716,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.9049384716,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 31.9549384716,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.9549384716,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 31.9549384716,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 10,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.9549384716,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 31.9549384716,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.1549384716,
+    "type": "AttackStarted",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.2049384716,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.2049384716,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 160.92000000000002,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.2049384716,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 128.73600000000002,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 160.92000000000002,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 32.2049384716,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 11,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.2589629813,
+    "type": "SkillCast",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 2.5,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 3.5
+    }
+  },
+  {
+    "time": 32.6089629813,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.6089629813,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 62.48899999999999,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {
+      "raw": 62.48899999999999,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 32.6089629813,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 12,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.6089629813,
+    "type": "Knockback",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 1.8,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.6089629813,
+    "type": "Hitstun",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.45,
+    "skill_id": "boss_sweep",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.6089629813,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.6589629813,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 32.6589629813,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 48.86,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 48.86,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 32.6589629813,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 13,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.0589629813,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 33.1089629813,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.1089629813,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 33.1089629813,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 12,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.1089629813,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.1089629813,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.3089629813,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "cost": 12.0,
+      "cooldown": 1.14,
+      "target": "enemy",
+      "projectile_speed": 16.0,
+      "aoe_radius": 1.25
+    }
+  },
+  {
+    "time": 33.5827129813,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.5827129813,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 237.04500000000002,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.5827129813,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 189.63600000000002,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {
+      "raw": 237.04500000000002,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 33.5827129813,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 13,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.5827129813,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.8,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.5827129813,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.055999999999999994,
+    "skill_id": "arcane_bolt",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.6689629813,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 33.7189629813,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.7189629813,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 33.7189629813,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 14,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.7189629813,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.5,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.7189629813,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.041999999999999996,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.7854335695,
+    "type": "AttackStarted",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.8354335695,
+    "type": "Hit",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.8354335695,
+    "type": "Damage",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 48.86,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "raw": 48.86,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 33.8354335695,
+    "type": "ComboStep",
+    "source_id": "clockwork_tyrant",
+    "target_id": "balanced_vanguard",
+    "amount": 14,
+    "skill_id": "",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 33.9189629813,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "cost": 18.0,
+      "cooldown": 2.8499999999999996,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 34.1689629813,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 34.1689629813,
+    "type": "Critical",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 465.41999999999996,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 34.1689629813,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 372.336,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {
+      "raw": 465.41999999999996,
+      "critical": true,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 34.1689629813,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 15,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 34.1689629813,
+    "type": "Knockback",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 2.2,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 34.1689629813,
+    "type": "Hitstun",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.1575,
+    "skill_id": "power_slash",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 34.1689629813,
+    "type": "DebuffApplied",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "effect_id": "armor_break",
+      "kind": "debuff",
+      "duration": 4.0
+    }
+  },
+  {
+    "time": 34.6189629813,
+    "type": "SkillCast",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "cost": 0.0,
+      "cooldown": 0.4275,
+      "target": "enemy",
+      "projectile_speed": 0.0,
+      "aoe_radius": 0.0
+    }
+  },
+  {
+    "time": 34.6689629813,
+    "type": "Hit",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 34.6689629813,
+    "type": "Damage",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 85.82400000000001,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {
+      "raw": 107.28,
+      "critical": false,
+      "absorbed": 0.0,
+      "damage_type": "physical"
+    }
+  },
+  {
+    "time": 34.6689629813,
+    "type": "ComboStep",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 16,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 34.6689629813,
+    "type": "Death",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "basic_strike",
+    "message": "",
+    "metadata": {}
+  },
+  {
+    "time": 34.6689629813,
+    "type": "FightEnded",
+    "source_id": "balanced_vanguard",
+    "target_id": "clockwork_tyrant",
+    "amount": 0.0,
+    "skill_id": "",
+    "message": "",
+    "metadata": {
+      "winner": "balanced_vanguard",
+      "reason": "enemy_defeated"
+    }
+  }
+]

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320">
+<rect width="100%" height="100%" fill="#0b1220"/>
+<style>text{font-family:Segoe UI,Arial,sans-serif;fill:#e8f0fa;font-size:12px}.muted{fill:#9aacc4;font-size:11px}.title{font-size:18px;font-weight:600}</style>
+<text class="title" x="22" y="32">Player Damage × Boss HP — Win Rate</text>
+<text class="muted" x="210" y="60">40</text>
+<text class="muted" x="330" y="60">80</text>
+<text class="muted" x="450" y="60">120</text>
+<text class="muted" x="570" y="60">160</text>
+<text class="muted" x="16" y="109">5000</text>
+<rect x="180" y="78" width="114" height="46" rx="6" fill="rgb(40,104,132)"/>
+<text x="218" y="109">28%</text>
+<rect x="300" y="78" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="338" y="109">100%</text>
+<rect x="420" y="78" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="458" y="109">100%</text>
+<rect x="540" y="78" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="578" y="109">100%</text>
+<text class="muted" x="16" y="161">7500</text>
+<rect x="180" y="130" width="114" height="46" rx="6" fill="rgb(28,57,100)"/>
+<text x="218" y="161">0%</text>
+<rect x="300" y="130" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="338" y="161">100%</text>
+<rect x="420" y="130" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="458" y="161">100%</text>
+<rect x="540" y="130" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="578" y="161">100%</text>
+<text class="muted" x="16" y="213">10000</text>
+<rect x="180" y="182" width="114" height="46" rx="6" fill="rgb(28,57,100)"/>
+<text x="218" y="213">0%</text>
+<rect x="300" y="182" width="114" height="46" rx="6" fill="rgb(71,222,213)"/>
+<text x="338" y="213">97%</text>
+<rect x="420" y="182" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="458" y="213">100%</text>
+<rect x="540" y="182" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="578" y="213">100%</text>
+<text class="muted" x="16" y="265">12500</text>
+<rect x="180" y="234" width="114" height="46" rx="6" fill="rgb(28,57,100)"/>
+<text x="218" y="265">0%</text>
+<rect x="300" y="234" width="114" height="46" rx="6" fill="rgb(41,108,135)"/>
+<text x="338" y="265">30%</text>
+<rect x="420" y="234" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="458" y="265">100%</text>
+<rect x="540" y="234" width="114" height="46" rx="6" fill="rgb(73,228,217)"/>
+<text x="578" y="265">100%</text>
+</svg>

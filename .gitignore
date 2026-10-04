@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv-build/
+build/
+dist/
+# Keep the release spec under version control; other local PyInstaller specs
+# remain ignored by default.
+*.spec
+!GameMechanicLab.spec
+*.egg-info/

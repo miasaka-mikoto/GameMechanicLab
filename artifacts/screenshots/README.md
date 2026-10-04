@@ -1,0 +1,1 @@
+These PNGs are reproducible headless captures rendered from artifacts/final_demo. The dashboard timeline and metrics come from the real CombatEvent replay; on a desktop, docs/capture_screenshots.py can capture the live Tk Arena itself.

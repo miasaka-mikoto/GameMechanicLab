@@ -1,0 +1,6 @@
+# Game Mechanic Lab has no mandatory third-party runtime dependency.
+# Install this optional package to enable richer chart exports; the app has a
+# Tk Canvas fallback when matplotlib is unavailable.
+matplotlib>=3.8
+# Full YAML editing/loading support (JSON remains the zero-dependency format).
+PyYAML>=6.0

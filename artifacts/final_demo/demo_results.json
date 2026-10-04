@@ -1,0 +1,2431 @@
+{
+  "project": "Game Mechanic Lab",
+  "demo": {
+    "builds": 3,
+    "skills": 5,
+    "enemies": 3,
+    "bosses": 1
+  },
+  "runs_per_scenario": 100,
+  "seed": 20261004,
+  "scenarios": [
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 3.6641125,
+      "median_ttk": 3.66125,
+      "p95_ttk": 3.91125,
+      "average_dps": 532.1315660868931,
+      "average_damage_taken": 0.0,
+      "skill_usage": {
+        "basic_strike": 583,
+        "arcane_bolt": 299,
+        "power_slash": 133,
+        "guardian_pulse": 100
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20261004,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 3.6641125,
+      "dps": 532.1315660868931,
+      "damage_taken": 0.0,
+      "avg_ttk": 3.6641125,
+      "avg_dps": 532.1315660868931,
+      "fights": [
+        {
+          "winner": "balanced_vanguard",
+          "win": true,
+          "duration": 3.43,
+          "ttk": 3.43,
+          "player_id": "balanced_vanguard",
+          "enemy_id": "training_dummy",
+          "damage_dealt": 1808.25,
+          "damage_taken": 0.0,
+          "dps": 527.1865889212828,
+          "skill_usage": {
+            "basic_strike": 6,
+            "arcane_bolt": 3,
+            "power_slash": 1,
+            "guardian_pulse": 1
+          },
+          "deaths": 1,
+          "events": [
+            {
+              "time": 0.0,
+              "type": "FightStarted",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "",
+              "message": "",
+              "metadata": {
+                "player": "balanced_vanguard",
+                "enemy": "training_dummy"
+              }
+            },
+            {
+              "time": 0.0,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "cost": 0.0,
+                "cooldown": 0.4275,
+                "target": "enemy",
+                "projectile_speed": 0.0,
+                "aoe_radius": 0.0
+              }
+            },
+            {
+              "time": 0.0,
+              "type": "AttackStarted",
+              "source_id": "training_dummy",
+              "target_id": "balanced_vanguard",
+              "amount": 0.0,
+              "skill_id": "",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.05,
+              "type": "Hit",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.05,
+              "type": "Damage",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 125.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "raw": 125.0,
+                "critical": false,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 0.05,
+              "type": "ComboStep",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 1,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.05,
+              "type": "Knockback",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.5,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.05,
+              "type": "Hitstun",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.12,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.05,
+              "type": "Hit",
+              "source_id": "training_dummy",
+              "target_id": "balanced_vanguard",
+              "amount": 0.0,
+              "skill_id": "",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.05,
+              "type": "Damage",
+              "source_id": "training_dummy",
+              "target_id": "balanced_vanguard",
+              "amount": 0.0,
+              "skill_id": "",
+              "message": "",
+              "metadata": {
+                "raw": 0.0,
+                "critical": false,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 0.25,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {
+                "cost": 12.0,
+                "cooldown": 1.14,
+                "target": "enemy",
+                "projectile_speed": 16.0,
+                "aoe_radius": 1.25
+              }
+            },
+            {
+              "time": 0.52375,
+              "type": "Hit",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.52375,
+              "type": "Damage",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 175.75,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {
+                "raw": 175.75,
+                "critical": false,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 0.52375,
+              "type": "ComboStep",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 2,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.52375,
+              "type": "Knockback",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.8,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.52375,
+              "type": "Hitstun",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.16,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.61,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "cost": 0.0,
+                "cooldown": 0.4275,
+                "target": "enemy",
+                "projectile_speed": 0.0,
+                "aoe_radius": 0.0
+              }
+            },
+            {
+              "time": 0.66,
+              "type": "Hit",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.66,
+              "type": "Critical",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 187.5,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.66,
+              "type": "Damage",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 187.5,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "raw": 187.5,
+                "critical": true,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 0.66,
+              "type": "ComboStep",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 3,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.66,
+              "type": "Knockback",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.5,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.66,
+              "type": "Hitstun",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.12,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 0.86,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "power_slash",
+              "message": "",
+              "metadata": {
+                "cost": 18.0,
+                "cooldown": 2.8499999999999996,
+                "target": "enemy",
+                "projectile_speed": 0.0,
+                "aoe_radius": 0.0
+              }
+            },
+            {
+              "time": 1.11,
+              "type": "Hit",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "power_slash",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 1.11,
+              "type": "Damage",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 328.0,
+              "skill_id": "power_slash",
+              "message": "",
+              "metadata": {
+                "raw": 328.0,
+                "critical": false,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 1.11,
+              "type": "ComboStep",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 4,
+              "skill_id": "power_slash",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 1.11,
+              "type": "Knockback",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 2.2,
+              "skill_id": "power_slash",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 1.11,
+              "type": "Hitstun",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.45,
+              "skill_id": "power_slash",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 1.11,
+              "type": "DebuffApplied",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "",
+              "message": "",
+              "metadata": {
+                "effect_id": "armor_break",
+                "kind": "debuff",
+                "duration": 4.0
+              }
+            },
+            {
+              "time": 1.56,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "cost": 0.0,
+                "cooldown": 0.4275,
+                "target": "enemy",
+                "projectile_speed": 0.0,
+                "aoe_radius": 0.0
+              }
+            },
+            {
+              "time": 1.61,
+              "type": "Hit",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 1.61,
+              "type": "Damage",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 137.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "raw": 137.0,
+                "critical": false,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 1.61,
+              "type": "ComboStep",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 5,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 1.61,
+              "type": "Knockback",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.5,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 1.61,
+              "type": "Hitstun",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.12,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 1.81,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {
+                "cost": 12.0,
+                "cooldown": 1.14,
+                "target": "enemy",
+                "projectile_speed": 16.0,
+                "aoe_radius": 1.25
+              }
+            },
+            {
+              "time": 2.08375,
+              "type": "Hit",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.08375,
+              "type": "Damage",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 187.75,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {
+                "raw": 187.75,
+                "critical": false,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 2.08375,
+              "type": "ComboStep",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 6,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.08375,
+              "type": "Knockback",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.8,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.08375,
+              "type": "Hitstun",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.16,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.17,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "cost": 0.0,
+                "cooldown": 0.4275,
+                "target": "enemy",
+                "projectile_speed": 0.0,
+                "aoe_radius": 0.0
+              }
+            },
+            {
+              "time": 2.22,
+              "type": "Hit",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.22,
+              "type": "Damage",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 137.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "raw": 137.0,
+                "critical": false,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 2.22,
+              "type": "ComboStep",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 7,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.22,
+              "type": "Knockback",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.5,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.22,
+              "type": "Hitstun",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.12,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.42,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "balanced_vanguard",
+              "amount": 0.0,
+              "skill_id": "guardian_pulse",
+              "message": "",
+              "metadata": {
+                "cost": 18.0,
+                "cooldown": 7.6,
+                "target": "self",
+                "projectile_speed": 0.0,
+                "aoe_radius": 0.0
+              }
+            },
+            {
+              "time": 2.62,
+              "type": "BuffApplied",
+              "source_id": "balanced_vanguard",
+              "target_id": "balanced_vanguard",
+              "amount": 90.0,
+              "skill_id": "",
+              "message": "",
+              "metadata": {
+                "effect_id": "shield",
+                "kind": "shield",
+                "shield": 90.0
+              }
+            },
+            {
+              "time": 2.62,
+              "type": "BuffApplied",
+              "source_id": "balanced_vanguard",
+              "target_id": "balanced_vanguard",
+              "amount": 14.0,
+              "skill_id": "",
+              "message": "",
+              "metadata": {
+                "effect_id": "regeneration",
+                "kind": "hot",
+                "duration": 4.0
+              }
+            },
+            {
+              "time": 2.62,
+              "type": "BuffApplied",
+              "source_id": "balanced_vanguard",
+              "target_id": "balanced_vanguard",
+              "amount": 0.0,
+              "skill_id": "",
+              "message": "",
+              "metadata": {
+                "effect_id": "haste",
+                "kind": "buff",
+                "duration": 3.0
+              }
+            },
+            {
+              "time": 2.77,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "cost": 0.0,
+                "cooldown": 0.4275,
+                "target": "enemy",
+                "projectile_speed": 0.0,
+                "aoe_radius": 0.0
+              }
+            },
+            {
+              "time": 2.82,
+              "type": "Hit",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.82,
+              "type": "Critical",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 205.5,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.82,
+              "type": "Damage",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 205.5,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "raw": 205.5,
+                "critical": true,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 2.82,
+              "type": "ComboStep",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 8,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.82,
+              "type": "Knockback",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.5,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 2.82,
+              "type": "Hitstun",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.12,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 3.02,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {
+                "cost": 12.0,
+                "cooldown": 1.14,
+                "target": "enemy",
+                "projectile_speed": 16.0,
+                "aoe_radius": 1.25
+              }
+            },
+            {
+              "time": 3.29375,
+              "type": "Hit",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 3.29375,
+              "type": "Damage",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 187.75,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {
+                "raw": 187.75,
+                "critical": false,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 3.29375,
+              "type": "ComboStep",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 9,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 3.29375,
+              "type": "Knockback",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.8,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 3.29375,
+              "type": "Hitstun",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.16,
+              "skill_id": "arcane_bolt",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 3.38,
+              "type": "SkillCast",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "cost": 0.0,
+                "cooldown": 0.4275,
+                "target": "enemy",
+                "projectile_speed": 0.0,
+                "aoe_radius": 0.0
+              }
+            },
+            {
+              "time": 3.43,
+              "type": "Hit",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 3.43,
+              "type": "Damage",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 137.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {
+                "raw": 137.0,
+                "critical": false,
+                "absorbed": 0.0,
+                "damage_type": "physical"
+              }
+            },
+            {
+              "time": 3.43,
+              "type": "ComboStep",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 10,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 3.43,
+              "type": "Death",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "basic_strike",
+              "message": "",
+              "metadata": {}
+            },
+            {
+              "time": 3.43,
+              "type": "FightEnded",
+              "source_id": "balanced_vanguard",
+              "target_id": "training_dummy",
+              "amount": 0.0,
+              "skill_id": "",
+              "message": "",
+              "metadata": {
+                "winner": "balanced_vanguard",
+                "reason": "enemy_defeated"
+              }
+            }
+          ],
+          "seed": 20261004,
+          "reason": "enemy_defeated",
+          "phase_changes": 0,
+          "player_deaths": 0,
+          "enemy_deaths": 1
+        }
+      ],
+      "build_id": "balanced_vanguard",
+      "build": "Balanced Vanguard",
+      "enemy_id": "training_dummy",
+      "enemy": "Training Dummy",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 1.39225,
+      "median_ttk": 1.65375,
+      "p95_ttk": 1.90375,
+      "average_dps": 1700.7813861428433,
+      "average_damage_taken": 0.0,
+      "skill_usage": {
+        "basic_strike": 253,
+        "arcane_bolt": 127,
+        "power_slash": 100
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20262035,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 1.39225,
+      "dps": 1700.7813861428433,
+      "damage_taken": 0.0,
+      "avg_ttk": 1.39225,
+      "avg_dps": 1700.7813861428433,
+      "build_id": "glass_cannon",
+      "build": "Glass Cannon",
+      "enemy_id": "training_dummy",
+      "enemy": "Training Dummy",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        },
+        {
+          "code": "DPS Explosion",
+          "severity": "high",
+          "message": "Observed DPS is an extreme multiple of attack power.",
+          "evidence": {
+            "average_dps": 1700.7813861428433,
+            "attack": 185.0,
+            "ratio": 9.193412898069424
+          },
+          "type": "DPS Explosion"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 6.634881642512077,
+      "median_ttk": 6.856763285024154,
+      "p95_ttk": 7.102415458937198,
+      "average_dps": 289.9073925196451,
+      "average_damage_taken": 0.0,
+      "skill_usage": {
+        "basic_strike": 838,
+        "power_slash": 240,
+        "ember_trap": 103,
+        "guardian_pulse": 100
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20263066,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 6.634881642512077,
+      "dps": 289.9073925196451,
+      "damage_taken": 0.0,
+      "avg_ttk": 6.634881642512077,
+      "avg_dps": 289.9073925196451,
+      "build_id": "fortress_controller",
+      "build": "Fortress Controller",
+      "enemy_id": "training_dummy",
+      "enemy": "Training Dummy",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 7.3096441091954025,
+      "median_ttk": 7.400833333333333,
+      "p95_ttk": 8.920833333333333,
+      "average_dps": 344.66113045401744,
+      "average_damage_taken": 347.7285,
+      "skill_usage": {
+        "basic_strike": 1021,
+        "arcane_bolt": 475,
+        "power_slash": 223,
+        "guardian_pulse": 100
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20261097,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 7.3096441091954025,
+      "dps": 344.66113045401744,
+      "damage_taken": 347.7285,
+      "avg_ttk": 7.3096441091954025,
+      "avg_dps": 344.66113045401744,
+      "build_id": "balanced_vanguard",
+      "build": "Balanced Vanguard",
+      "enemy_id": "iron_skirmisher",
+      "enemy": "Iron Skirmisher",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 3.071725,
+      "median_ttk": 2.9274999999999998,
+      "p95_ttk": 4.5874999999999995,
+      "average_dps": 880.1466090426788,
+      "average_damage_taken": 341.286,
+      "skill_usage": {
+        "basic_strike": 497,
+        "arcane_bolt": 214,
+        "power_slash": 101,
+        "ember_trap": 41
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20262128,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 3.071725,
+      "dps": 880.1466090426788,
+      "damage_taken": 341.286,
+      "avg_ttk": 3.071725,
+      "avg_dps": 880.1466090426788,
+      "build_id": "glass_cannon",
+      "build": "Glass Cannon",
+      "enemy_id": "iron_skirmisher",
+      "enemy": "Iron Skirmisher",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 13.231559999999996,
+      "median_ttk": 13.094623188405794,
+      "p95_ttk": 15.202763285024151,
+      "average_dps": 186.79132200801337,
+      "average_damage_taken": 0.0,
+      "skill_usage": {
+        "basic_strike": 1597,
+        "power_slash": 428,
+        "ember_trap": 210,
+        "guardian_pulse": 192
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20263159,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 13.231559999999996,
+      "dps": 186.79132200801337,
+      "damage_taken": 0.0,
+      "avg_ttk": 13.231559999999996,
+      "avg_dps": 186.79132200801337,
+      "build_id": "fortress_controller",
+      "build": "Fortress Controller",
+      "enemy_id": "iron_skirmisher",
+      "enemy": "Iron Skirmisher",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 3.0577375,
+      "median_ttk": 2.9575,
+      "p95_ttk": 3.91125,
+      "average_dps": 544.3770749604317,
+      "average_damage_taken": 233.1975,
+      "skill_usage": {
+        "basic_strike": 502,
+        "arcane_bolt": 244,
+        "power_slash": 110,
+        "guardian_pulse": 74
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20261190,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 3.0577375,
+      "dps": 544.3770749604317,
+      "damage_taken": 233.1975,
+      "avg_ttk": 3.0577375,
+      "avg_dps": 544.3770749604317,
+      "build_id": "balanced_vanguard",
+      "build": "Balanced Vanguard",
+      "enemy_id": "ember_caster",
+      "enemy": "Ember Caster",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 1.220375,
+      "median_ttk": 0.95375,
+      "p95_ttk": 1.90375,
+      "average_dps": 1794.9315776185256,
+      "average_damage_taken": 191.9525,
+      "skill_usage": {
+        "basic_strike": 238,
+        "arcane_bolt": 113,
+        "power_slash": 93,
+        "ember_trap": 2
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20262221,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 1.220375,
+      "dps": 1794.9315776185256,
+      "damage_taken": 191.9525,
+      "avg_ttk": 1.220375,
+      "avg_dps": 1794.9315776185256,
+      "build_id": "glass_cannon",
+      "build": "Glass Cannon",
+      "enemy_id": "ember_caster",
+      "enemy": "Ember Caster",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        },
+        {
+          "code": "DPS Explosion",
+          "severity": "high",
+          "message": "Observed DPS is an extreme multiple of attack power.",
+          "evidence": {
+            "average_dps": 1794.9315776185256,
+            "attack": 185.0,
+            "ratio": 9.70233285199203
+          },
+          "type": "DPS Explosion"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 4.787371014492753,
+      "median_ttk": 4.595652173913043,
+      "p95_ttk": 6.652415458937197,
+      "average_dps": 335.17454602779566,
+      "average_damage_taken": 7.68,
+      "skill_usage": {
+        "basic_strike": 650,
+        "power_slash": 204,
+        "ember_trap": 100,
+        "guardian_pulse": 100
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20263252,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 4.787371014492753,
+      "dps": 335.17454602779566,
+      "damage_taken": 7.68,
+      "avg_ttk": 4.787371014492753,
+      "avg_dps": 335.17454602779566,
+      "build_id": "fortress_controller",
+      "build": "Fortress Controller",
+      "enemy_id": "ember_caster",
+      "enemy": "Ember Caster",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 37.767818364834966,
+      "median_ttk": 37.57745519085377,
+      "p95_ttk": 40.705264260249564,
+      "average_dps": 267.50495459517947,
+      "average_damage_taken": 904.6970599999999,
+      "skill_usage": {
+        "basic_strike": 4798,
+        "arcane_bolt": 2278,
+        "power_slash": 1091,
+        "guardian_pulse": 401
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20261283,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 37.767818364834966,
+      "dps": 267.50495459517947,
+      "damage_taken": 904.6970599999999,
+      "avg_ttk": 37.767818364834966,
+      "avg_dps": 267.50495459517947,
+      "build_id": "balanced_vanguard",
+      "build": "Balanced Vanguard",
+      "enemy_id": "clockwork_tyrant",
+      "enemy": "Clockwork Tyrant",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 0,
+      "losses": 100,
+      "win_rate": 0.0,
+      "average_ttk": null,
+      "median_ttk": null,
+      "p95_ttk": null,
+      "average_dps": 639.2639376673744,
+      "average_damage_taken": 722.9499974999999,
+      "skill_usage": {
+        "basic_strike": 1569,
+        "arcane_bolt": 741,
+        "power_slash": 370,
+        "ember_trap": 204
+      },
+      "deaths": 100,
+      "player_deaths": 100,
+      "seed": 20262314,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": null,
+      "dps": 639.2639376673744,
+      "damage_taken": 722.9499974999999,
+      "avg_ttk": null,
+      "avg_dps": 639.2639376673744,
+      "build_id": "glass_cannon",
+      "build": "Glass Cannon",
+      "enemy_id": "clockwork_tyrant",
+      "enemy": "Clockwork Tyrant",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        },
+        {
+          "code": "Unkillable Build",
+          "severity": "medium",
+          "message": "The player has zero wins in the supplied aggregate.",
+          "evidence": {
+            "win_rate": 0.0
+          },
+          "type": "Unkillable Build"
+        }
+      ]
+    },
+    {
+      "runs": 100,
+      "wins": 100,
+      "losses": 0,
+      "win_rate": 1.0,
+      "average_ttk": 74.47266838797184,
+      "median_ttk": 74.04923576558429,
+      "p95_ttk": 79.28562302048621,
+      "average_dps": 135.15390853768488,
+      "average_damage_taken": 0.54833,
+      "skill_usage": {
+        "basic_strike": 8145,
+        "power_slash": 2223,
+        "ember_trap": 1185,
+        "guardian_pulse": 847
+      },
+      "deaths": 0,
+      "player_deaths": 0,
+      "seed": 20263345,
+      "simulation_mode": "accelerated_approximation",
+      "ttk": 74.47266838797184,
+      "dps": 135.15390853768488,
+      "damage_taken": 0.54833,
+      "avg_ttk": 74.47266838797184,
+      "avg_dps": 135.15390853768488,
+      "build_id": "fortress_controller",
+      "build": "Fortress Controller",
+      "enemy_id": "clockwork_tyrant",
+      "enemy": "Clockwork Tyrant",
+      "warnings": [
+        {
+          "code": "Permanent Stun",
+          "severity": "high",
+          "message": "Hitstun duration is long enough to chain before recovery.",
+          "evidence": {
+            "max_hitstun": 0.45,
+            "shortest_cooldown": 0.45
+          },
+          "type": "Permanent Stun"
+        }
+      ]
+    }
+  ],
+  "sweep": {
+    "rows": [
+      {
+        "index": 0,
+        "parameters": {
+          "enemy.stats.hp": 5000
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 18.70420970403835,
+        "median_ttk": 18.74226737967914,
+        "avg_ttk": 18.70420970403835,
+        "average_dps": 272.4402584786341,
+        "avg_dps": 272.4402584786341,
+        "average_damage_taken": 454.6472399999999,
+        "damage_taken": 454.6472399999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 2409,
+          "arcane_bolt": 1158,
+          "power_slash": 551,
+          "guardian_pulse": 202
+        },
+        "seed": 20261004,
+        "enemy.stats.hp": 5000,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Balanced Vanguard",
+        "build_id": "balanced_vanguard"
+      },
+      {
+        "index": 1,
+        "parameters": {
+          "enemy.stats.hp": 7500
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 28.062292299157903,
+        "median_ttk": 28.025469466469968,
+        "avg_ttk": 28.062292299157903,
+        "average_dps": 270.3073506822533,
+        "avg_dps": 270.3073506822533,
+        "average_damage_taken": 655.0343849999999,
+        "damage_taken": 655.0343849999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 3629,
+          "arcane_bolt": 1703,
+          "power_slash": 814,
+          "guardian_pulse": 303
+        },
+        "seed": 20361007,
+        "enemy.stats.hp": 7500,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Balanced Vanguard",
+        "build_id": "balanced_vanguard"
+      },
+      {
+        "index": 2,
+        "parameters": {
+          "enemy.stats.hp": 10000
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 37.56600101312312,
+        "median_ttk": 37.419656409428974,
+        "avg_ttk": 37.56600101312312,
+        "average_dps": 268.5124354635167,
+        "avg_dps": 268.5124354635167,
+        "average_damage_taken": 880.6970774999999,
+        "damage_taken": 880.6970774999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 4780,
+          "arcane_bolt": 2278,
+          "power_slash": 1084,
+          "guardian_pulse": 399
+        },
+        "seed": 20461010,
+        "enemy.stats.hp": 10000,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Balanced Vanguard",
+        "build_id": "balanced_vanguard"
+      },
+      {
+        "index": 3,
+        "parameters": {
+          "enemy.stats.hp": 12500
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 47.202474547913226,
+        "median_ttk": 47.23430792458052,
+        "avg_ttk": 47.202474547913226,
+        "average_dps": 266.8947926171725,
+        "avg_dps": 266.8947926171725,
+        "average_damage_taken": 1104.7077474999996,
+        "damage_taken": 1104.7077474999996,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 5943,
+          "arcane_bolt": 2860,
+          "power_slash": 1355,
+          "guardian_pulse": 499
+        },
+        "seed": 20561013,
+        "enemy.stats.hp": 12500,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Balanced Vanguard",
+        "build_id": "balanced_vanguard"
+      },
+      {
+        "index": 0,
+        "parameters": {
+          "enemy.stats.hp": 5000
+        },
+        "runs": 100,
+        "wins": 93,
+        "losses": 7,
+        "win_rate": 0.93,
+        "average_ttk": 7.8392847444873395,
+        "median_ttk": 8.056986631016045,
+        "avg_ttk": 7.8392847444873395,
+        "average_dps": 664.7507696328405,
+        "avg_dps": 664.7507696328405,
+        "average_damage_taken": 550.46863,
+        "damage_taken": 550.46863,
+        "deaths": 7,
+        "player_deaths": 7,
+        "skill_usage": {
+          "basic_strike": 1071,
+          "arcane_bolt": 523,
+          "power_slash": 216,
+          "ember_trap": 145
+        },
+        "seed": 20361004,
+        "enemy.stats.hp": 5000,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Glass Cannon",
+        "build_id": "glass_cannon"
+      },
+      {
+        "index": 1,
+        "parameters": {
+          "enemy.stats.hp": 7500
+        },
+        "runs": 100,
+        "wins": 28,
+        "losses": 72,
+        "win_rate": 0.28,
+        "average_ttk": 11.081382402333974,
+        "median_ttk": 11.193111054766732,
+        "avg_ttk": 11.081382402333974,
+        "average_dps": 660.666490745973,
+        "avg_dps": 660.666490745973,
+        "average_damage_taken": 690.3315499999999,
+        "damage_taken": 690.3315499999999,
+        "deaths": 72,
+        "player_deaths": 72,
+        "skill_usage": {
+          "basic_strike": 1392,
+          "arcane_bolt": 651,
+          "power_slash": 324,
+          "ember_trap": 185
+        },
+        "seed": 20461007,
+        "enemy.stats.hp": 7500,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Glass Cannon",
+        "build_id": "glass_cannon"
+      },
+      {
+        "index": 2,
+        "parameters": {
+          "enemy.stats.hp": 10000
+        },
+        "runs": 100,
+        "wins": 0,
+        "losses": 100,
+        "win_rate": 0.0,
+        "average_ttk": null,
+        "median_ttk": null,
+        "avg_ttk": null,
+        "average_dps": 642.0657540766015,
+        "avg_dps": 642.0657540766015,
+        "average_damage_taken": 719.00398,
+        "damage_taken": 719.00398,
+        "deaths": 100,
+        "player_deaths": 100,
+        "skill_usage": {
+          "basic_strike": 1558,
+          "arcane_bolt": 737,
+          "power_slash": 373,
+          "ember_trap": 203
+        },
+        "seed": 20561010,
+        "enemy.stats.hp": 10000,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Glass Cannon",
+        "build_id": "glass_cannon"
+      },
+      {
+        "index": 3,
+        "parameters": {
+          "enemy.stats.hp": 12500
+        },
+        "runs": 100,
+        "wins": 0,
+        "losses": 100,
+        "win_rate": 0.0,
+        "average_ttk": null,
+        "median_ttk": null,
+        "avg_ttk": null,
+        "average_dps": 633.0456757816463,
+        "avg_dps": 633.0456757816463,
+        "average_damage_taken": 713.3470599999999,
+        "damage_taken": 713.3470599999999,
+        "deaths": 100,
+        "player_deaths": 100,
+        "skill_usage": {
+          "basic_strike": 1648,
+          "arcane_bolt": 769,
+          "power_slash": 396,
+          "ember_trap": 207
+        },
+        "seed": 20661013,
+        "enemy.stats.hp": 12500,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Glass Cannon",
+        "build_id": "glass_cannon"
+      },
+      {
+        "index": 0,
+        "parameters": {
+          "enemy.stats.hp": 5000
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 36.752494787000444,
+        "median_ttk": 36.52550890619753,
+        "avg_ttk": 36.752494787000444,
+        "average_dps": 137.5571530143536,
+        "avg_dps": 137.5571530143536,
+        "average_damage_taken": 0.30833,
+        "damage_taken": 0.30833,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 4048,
+          "power_slash": 1131,
+          "ember_trap": 603,
+          "guardian_pulse": 422
+        },
+        "seed": 20461004,
+        "enemy.stats.hp": 5000,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Fortress Controller",
+        "build_id": "fortress_controller"
+      },
+      {
+        "index": 1,
+        "parameters": {
+          "enemy.stats.hp": 7500
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 55.85387075860915,
+        "median_ttk": 55.77933514169836,
+        "avg_ttk": 55.85387075860915,
+        "average_dps": 135.52982978270893,
+        "avg_dps": 135.52982978270893,
+        "average_damage_taken": 1.8762375,
+        "damage_taken": 1.8762375,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 6131,
+          "power_slash": 1670,
+          "ember_trap": 880,
+          "guardian_pulse": 631
+        },
+        "seed": 20561007,
+        "enemy.stats.hp": 7500,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Fortress Controller",
+        "build_id": "fortress_controller"
+      },
+      {
+        "index": 2,
+        "parameters": {
+          "enemy.stats.hp": 10000
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 73.99376823865255,
+        "median_ttk": 73.89029081092255,
+        "avg_ttk": 73.99376823865255,
+        "average_dps": 135.90813198573784,
+        "avg_dps": 135.90813198573784,
+        "average_damage_taken": 0.94833,
+        "damage_taken": 0.94833,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 8124,
+          "power_slash": 2190,
+          "ember_trap": 1170,
+          "guardian_pulse": 833
+        },
+        "seed": 20661010,
+        "enemy.stats.hp": 10000,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Fortress Controller",
+        "build_id": "fortress_controller"
+      },
+      {
+        "index": 3,
+        "parameters": {
+          "enemy.stats.hp": 12500
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 92.98238555762227,
+        "median_ttk": 93.2132568201194,
+        "avg_ttk": 92.98238555762227,
+        "average_dps": 135.09668438170374,
+        "avg_dps": 135.09668438170374,
+        "average_damage_taken": 2.7328975,
+        "damage_taken": 2.7328975,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 10149,
+          "power_slash": 2760,
+          "ember_trap": 1459,
+          "guardian_pulse": 1046
+        },
+        "seed": 20761013,
+        "enemy.stats.hp": 12500,
+        "formula": "max(0, attack * multiplier - defense)",
+        "build": "Fortress Controller",
+        "build_id": "fortress_controller"
+      }
+    ],
+    "heatmap": {
+      "x": "enemy.stats.hp",
+      "y": "build",
+      "metric": "win_rate",
+      "x_values": [
+        5000,
+        7500,
+        10000,
+        12500
+      ],
+      "y_values": [
+        "Balanced Vanguard",
+        "Fortress Controller",
+        "Glass Cannon"
+      ],
+      "matrix": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.93,
+          0.28,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "ttk_heatmap": {
+      "x": "enemy.stats.hp",
+      "y": "build",
+      "metric": "median_ttk",
+      "x_values": [
+        5000,
+        7500,
+        10000,
+        12500
+      ],
+      "y_values": [
+        "Balanced Vanguard",
+        "Fortress Controller",
+        "Glass Cannon"
+      ],
+      "matrix": [
+        [
+          18.74226737967914,
+          28.025469466469968,
+          37.419656409428974,
+          47.23430792458052
+        ],
+        [
+          36.52550890619753,
+          55.77933514169836,
+          73.89029081092255,
+          93.2132568201194
+        ],
+        [
+          8.056986631016045,
+          11.193111054766732,
+          null,
+          null
+        ]
+      ]
+    },
+    "damage_rows": [
+      {
+        "index": 0,
+        "parameters": {
+          "player.stats.attack": 40,
+          "enemy.stats.hp": 5000
+        },
+        "runs": 100,
+        "wins": 28,
+        "losses": 72,
+        "win_rate": 0.28,
+        "average_ttk": 88.65968943235596,
+        "median_ttk": 88.982117178376,
+        "avg_ttk": 88.65968943235596,
+        "average_dps": 55.75207681036917,
+        "avg_dps": 55.75207681036917,
+        "average_damage_taken": 1805.1505824999986,
+        "damage_taken": 1805.1505824999986,
+        "deaths": 72,
+        "player_deaths": 72,
+        "skill_usage": {
+          "basic_strike": 10858,
+          "arcane_bolt": 5239,
+          "power_slash": 2482,
+          "guardian_pulse": 901
+        },
+        "seed": 21161004,
+        "player.stats.attack": 40,
+        "enemy.stats.hp": 5000,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 1,
+        "parameters": {
+          "player.stats.attack": 40,
+          "enemy.stats.hp": 7500
+        },
+        "runs": 100,
+        "wins": 0,
+        "losses": 100,
+        "win_rate": 0.0,
+        "average_ttk": null,
+        "median_ttk": null,
+        "avg_ttk": null,
+        "average_dps": 53.74395465788715,
+        "avg_dps": 53.74395465788715,
+        "average_damage_taken": 1962.9518049999992,
+        "damage_taken": 1962.9518049999992,
+        "deaths": 100,
+        "player_deaths": 71,
+        "skill_usage": {
+          "basic_strike": 14520,
+          "arcane_bolt": 7007,
+          "power_slash": 3318,
+          "guardian_pulse": 1207
+        },
+        "seed": 21261007,
+        "player.stats.attack": 40,
+        "enemy.stats.hp": 7500,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 2,
+        "parameters": {
+          "player.stats.attack": 40,
+          "enemy.stats.hp": 10000
+        },
+        "runs": 100,
+        "wins": 0,
+        "losses": 100,
+        "win_rate": 0.0,
+        "average_ttk": null,
+        "median_ttk": null,
+        "avg_ttk": null,
+        "average_dps": 51.07323866666662,
+        "avg_dps": 51.07323866666662,
+        "average_damage_taken": 1363.5781875000002,
+        "damage_taken": 1363.5781875000002,
+        "deaths": 100,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 14879,
+          "arcane_bolt": 7194,
+          "power_slash": 3447,
+          "guardian_pulse": 1239
+        },
+        "seed": 21361010,
+        "player.stats.attack": 40,
+        "enemy.stats.hp": 10000,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 3,
+        "parameters": {
+          "player.stats.attack": 40,
+          "enemy.stats.hp": 12500
+        },
+        "runs": 100,
+        "wins": 0,
+        "losses": 100,
+        "win_rate": 0.0,
+        "average_ttk": null,
+        "median_ttk": null,
+        "avg_ttk": null,
+        "average_dps": 50.23150399999997,
+        "avg_dps": 50.23150399999997,
+        "average_damage_taken": 1221.0135375000002,
+        "damage_taken": 1221.0135375000002,
+        "deaths": 100,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 14897,
+          "arcane_bolt": 7180,
+          "power_slash": 3469,
+          "guardian_pulse": 1210
+        },
+        "seed": 21461013,
+        "player.stats.attack": 40,
+        "enemy.stats.hp": 12500,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 4,
+        "parameters": {
+          "player.stats.attack": 80,
+          "enemy.stats.hp": 5000
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 31.952459762277947,
+        "median_ttk": 31.884416651300008,
+        "avg_ttk": 31.952459762277947,
+        "average_dps": 158.54759077321697,
+        "avg_dps": 158.54759077321697,
+        "average_damage_taken": 758.1418949999999,
+        "damage_taken": 758.1418949999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 4069,
+          "arcane_bolt": 1947,
+          "power_slash": 953,
+          "guardian_pulse": 330
+        },
+        "seed": 21561016,
+        "player.stats.attack": 80,
+        "enemy.stats.hp": 5000,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 5,
+        "parameters": {
+          "player.stats.attack": 80,
+          "enemy.stats.hp": 7500
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 48.29506795685047,
+        "median_ttk": 48.077192513369,
+        "avg_ttk": 48.29506795685047,
+        "average_dps": 156.41522814049105,
+        "avg_dps": 156.41522814049105,
+        "average_damage_taken": 1103.5659849999997,
+        "damage_taken": 1103.5659849999997,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 6068,
+          "arcane_bolt": 2931,
+          "power_slash": 1387,
+          "guardian_pulse": 508
+        },
+        "seed": 21661019,
+        "player.stats.attack": 80,
+        "enemy.stats.hp": 7500,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 6,
+        "parameters": {
+          "player.stats.attack": 80,
+          "enemy.stats.hp": 10000
+        },
+        "runs": 100,
+        "wins": 97,
+        "losses": 3,
+        "win_rate": 0.97,
+        "average_ttk": 64.95894435071321,
+        "median_ttk": 65.01150176716457,
+        "avg_ttk": 64.95894435071321,
+        "average_dps": 154.70247525396243,
+        "avg_dps": 154.70247525396243,
+        "average_damage_taken": 1475.8360024999993,
+        "damage_taken": 1475.8360024999993,
+        "deaths": 3,
+        "player_deaths": 3,
+        "skill_usage": {
+          "basic_strike": 8128,
+          "arcane_bolt": 3924,
+          "power_slash": 1857,
+          "guardian_pulse": 673
+        },
+        "seed": 21761022,
+        "player.stats.attack": 80,
+        "enemy.stats.hp": 10000,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 7,
+        "parameters": {
+          "player.stats.attack": 80,
+          "enemy.stats.hp": 12500
+        },
+        "runs": 100,
+        "wins": 30,
+        "losses": 70,
+        "win_rate": 0.3,
+        "average_ttk": 81.05773288052941,
+        "median_ttk": 80.66862430850082,
+        "avg_ttk": 81.05773288052941,
+        "average_dps": 153.91291484769914,
+        "avg_dps": 153.91291484769914,
+        "average_damage_taken": 1761.2397349999987,
+        "damage_taken": 1761.2397349999987,
+        "deaths": 70,
+        "player_deaths": 70,
+        "skill_usage": {
+          "basic_strike": 9867,
+          "arcane_bolt": 4770,
+          "power_slash": 2253,
+          "guardian_pulse": 814
+        },
+        "seed": 21861025,
+        "player.stats.attack": 80,
+        "enemy.stats.hp": 12500,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 8,
+        "parameters": {
+          "player.stats.attack": 120,
+          "enemy.stats.hp": 5000
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 19.853662470803364,
+        "median_ttk": 19.9164908568443,
+        "avg_ttk": 19.853662470803364,
+        "average_dps": 256.8099970251469,
+        "avg_dps": 256.8099970251469,
+        "average_damage_taken": 483.4995374999999,
+        "damage_taken": 483.4995374999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 2544,
+          "arcane_bolt": 1216,
+          "power_slash": 587,
+          "guardian_pulse": 204
+        },
+        "seed": 21961028,
+        "player.stats.attack": 120,
+        "enemy.stats.hp": 5000,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 9,
+        "parameters": {
+          "player.stats.attack": 120,
+          "enemy.stats.hp": 7500
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 29.72139811220726,
+        "median_ttk": 29.57272259358288,
+        "avg_ttk": 29.72139811220726,
+        "average_dps": 255.55536851264262,
+        "avg_dps": 255.55536851264262,
+        "average_damage_taken": 714.9030099999999,
+        "damage_taken": 714.9030099999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 3797,
+          "arcane_bolt": 1802,
+          "power_slash": 868,
+          "guardian_pulse": 314
+        },
+        "seed": 22061031,
+        "player.stats.attack": 120,
+        "enemy.stats.hp": 7500,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 10,
+        "parameters": {
+          "player.stats.attack": 120,
+          "enemy.stats.hp": 10000
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 39.66992629310345,
+        "median_ttk": 39.330610954883525,
+        "avg_ttk": 39.66992629310345,
+        "average_dps": 254.73448469841816,
+        "avg_dps": 254.73448469841816,
+        "average_damage_taken": 930.0599124999999,
+        "damage_taken": 930.0599124999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 5032,
+          "arcane_bolt": 2419,
+          "power_slash": 1141,
+          "guardian_pulse": 415
+        },
+        "seed": 22161034,
+        "player.stats.attack": 120,
+        "enemy.stats.hp": 10000,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 11,
+        "parameters": {
+          "player.stats.attack": 120,
+          "enemy.stats.hp": 12500
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 49.64571465747743,
+        "median_ttk": 49.53161651761019,
+        "avg_ttk": 49.64571465747743,
+        "average_dps": 253.63319501048562,
+        "avg_dps": 253.63319501048562,
+        "average_damage_taken": 1165.7135024999998,
+        "damage_taken": 1165.7135024999998,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 6235,
+          "arcane_bolt": 3000,
+          "power_slash": 1433,
+          "guardian_pulse": 519
+        },
+        "seed": 22261037,
+        "player.stats.attack": 120,
+        "enemy.stats.hp": 12500,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 12,
+        "parameters": {
+          "player.stats.attack": 160,
+          "enemy.stats.hp": 5000
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 14.15177962336345,
+        "median_ttk": 14.211915998217465,
+        "avg_ttk": 14.15177962336345,
+        "average_dps": 361.66442729527387,
+        "avg_dps": 361.66442729527387,
+        "average_damage_taken": 366.3831574999999,
+        "damage_taken": 366.3831574999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 1880,
+          "arcane_bolt": 870,
+          "power_slash": 416,
+          "guardian_pulse": 169
+        },
+        "seed": 22361040,
+        "player.stats.attack": 160,
+        "enemy.stats.hp": 5000,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 13,
+        "parameters": {
+          "player.stats.attack": 160,
+          "enemy.stats.hp": 7500
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 21.646878671706922,
+        "median_ttk": 21.667911987522274,
+        "avg_ttk": 21.646878671706922,
+        "average_dps": 352.17501019930745,
+        "avg_dps": 352.17501019930745,
+        "average_damage_taken": 560.7511549999999,
+        "damage_taken": 560.7511549999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 2746,
+          "arcane_bolt": 1315,
+          "power_slash": 637,
+          "guardian_pulse": 218
+        },
+        "seed": 22461043,
+        "player.stats.attack": 160,
+        "enemy.stats.hp": 7500,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 14,
+        "parameters": {
+          "player.stats.attack": 160,
+          "enemy.stats.hp": 10000
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 28.025017001044926,
+        "median_ttk": 28.00738701671891,
+        "avg_ttk": 28.025017001044926,
+        "average_dps": 360.87938623608613,
+        "avg_dps": 360.87938623608613,
+        "average_damage_taken": 679.9490149999999,
+        "damage_taken": 679.9490149999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 3593,
+          "arcane_bolt": 1693,
+          "power_slash": 826,
+          "guardian_pulse": 300
+        },
+        "seed": 22561046,
+        "player.stats.attack": 160,
+        "enemy.stats.hp": 10000,
+        "formula": "max(0, attack * multiplier - defense)"
+      },
+      {
+        "index": 15,
+        "parameters": {
+          "player.stats.attack": 160,
+          "enemy.stats.hp": 12500
+        },
+        "runs": 100,
+        "wins": 100,
+        "losses": 0,
+        "win_rate": 1.0,
+        "average_ttk": 35.55637481037556,
+        "median_ttk": 35.47839526092568,
+        "avg_ttk": 35.55637481037556,
+        "average_dps": 355.0243480968901,
+        "avg_dps": 355.0243480968901,
+        "average_damage_taken": 849.1495124999999,
+        "damage_taken": 849.1495124999999,
+        "deaths": 0,
+        "player_deaths": 0,
+        "skill_usage": {
+          "basic_strike": 4538,
+          "arcane_bolt": 2167,
+          "power_slash": 1037,
+          "guardian_pulse": 385
+        },
+        "seed": 22661049,
+        "player.stats.attack": 160,
+        "enemy.stats.hp": 12500,
+        "formula": "max(0, attack * multiplier - defense)"
+      }
+    ],
+    "damage_vs_boss_hp": {
+      "x": "player.stats.attack",
+      "y": "enemy.stats.hp",
+      "metric": "median_ttk",
+      "x_values": [
+        40,
+        80,
+        120,
+        160
+      ],
+      "y_values": [
+        5000,
+        7500,
+        10000,
+        12500
+      ],
+      "matrix": [
+        [
+          88.982117178376,
+          31.884416651300008,
+          19.9164908568443,
+          14.211915998217465
+        ],
+        [
+          null,
+          48.077192513369,
+          29.57272259358288,
+          21.667911987522274
+        ],
+        [
+          null,
+          65.01150176716457,
+          39.330610954883525,
+          28.00738701671891
+        ],
+        [
+          null,
+          80.66862430850082,
+          49.53161651761019,
+          35.47839526092568
+        ]
+      ]
+    },
+    "damage_vs_boss_hp_win_rate": {
+      "x": "player.stats.attack",
+      "y": "enemy.stats.hp",
+      "metric": "win_rate",
+      "x_values": [
+        40,
+        80,
+        120,
+        160
+      ],
+      "y_values": [
+        5000,
+        7500,
+        10000,
+        12500
+      ],
+      "matrix": [
+        [
+          0.28,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.97,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.3,
+          1.0,
+          1.0
+        ]
+      ]
+    }
+  }
+}
