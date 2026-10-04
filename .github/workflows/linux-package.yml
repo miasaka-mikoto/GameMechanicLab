@@ -1,0 +1,62 @@
+name: Linux package
+
+on:
+  push:
+    branches: [main]
+    tags:
+      - "v*"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Linux desktop/runtime prerequisites
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-tk xvfb zip
+
+      - name: Install test dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Run tests and compile check
+        run: |
+          python -m pytest -q
+          python -m compileall -q gamemechaniclab
+
+      - name: Build native Linux binary
+        run: ./build_linux.sh --clean
+
+      - name: Build portable Linux bundle
+        run: ./build_portable.sh
+
+      - name: Smoke-test native and portable Linux launchers
+        run: |
+          tmp_native="$(mktemp -d)"
+          ./dist/GameMechanicLab-linux --headless --runs 1 --output "$tmp_native"
+          test -s "$tmp_native/simulation_result.json"
+          tmp_portable="$(mktemp -d)"
+          ./dist/GameMechanicLab-portable/run.sh --headless --runs 1 --output "$tmp_portable"
+          test -s "$tmp_portable/demo_results.json"
+
+      - name: Upload Linux artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: GameMechanicLab-linux-${{ github.sha }}
+          if-no-files-found: error
+          path: |
+            dist/GameMechanicLab-linux
+            dist/GameMechanicLab-linux-build-info.json
+            dist/GameMechanicLab-portable-linux.zip

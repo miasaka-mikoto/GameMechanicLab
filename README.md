@@ -172,7 +172,20 @@ standalone executable:
 # output: dist\GameMechanicLab.exe
 ```
 
-On Linux or macOS, where a Windows `.exe` cannot be cross-built reliably, use
+On Linux, build a native single-file executable and validate it with a real
+headless fight:
+
+```bash
+./build_linux.sh --clean
+./dist/GameMechanicLab-linux --headless --runs 1 --output /tmp/game-mechanic-lab-linux-smoke
+```
+
+The native Linux build includes Matplotlib/PyYAML by default for rich chart
+exports.  Use `./build_linux.sh --skip-optional-packages` for a smaller
+standard-library-only binary; JSON configs, SVG heatmaps, the Arena, replay,
+simulator, and all balance analysis still work.
+
+On macOS or on Linux machines where a single-file build is not desired, use
 the dependency-light portable folder instead:
 
 ```bash
@@ -180,13 +193,15 @@ the dependency-light portable folder instead:
 dist/GameMechanicLab-portable/run.sh --headless --runs 100
 ```
 
-The portable launcher keeps the source modules and JSON/YAML demo assets
-together. Matplotlib is optional; the core arena and Tk Canvas charts remain
-available without it. PyYAML enables richer YAML files; the paired JSON files
-remain the zero-dependency fallback. `load_project()` is the shared data
-boundary: skill IDs and mechanics-registry status IDs (including phase
-`add_status`) are expanded before model construction, while equipment/passive
-flat and multiplier modifiers remain declarative.
+The portable launcher keeps the source modules, JSON/YAML demo assets, and
+reference charts together; the script also creates
+`dist/GameMechanicLab-portable-linux.zip` when `zip` is available. Matplotlib
+is optional; the core arena and Tk Canvas charts remain available without it.
+PyYAML enables richer YAML files; the paired JSON files remain the
+zero-dependency fallback. `load_project()` is the shared data boundary: skill
+IDs and mechanics-registry status IDs (including phase `add_status`) are
+expanded before model construction, while equipment/passive flat and
+multiplier modifiers remain declarative.
 
 ## Development checks
 

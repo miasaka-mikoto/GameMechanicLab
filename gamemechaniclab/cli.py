@@ -203,6 +203,13 @@ def _write_svg_heatmap(output: Path, heatmap: Mapping[str, Any], title: str, fil
 def _write_png_heatmap(output: Path, heatmap: Mapping[str, Any], title: str, filename: str, percent: bool = True) -> Path | None:
     """Render a publication-friendly PNG when matplotlib is available."""
     try:
+        # Linux containers and service accounts often have a read-only home.
+        # Matplotlib otherwise tries to create ~/.config/matplotlib during its
+        # first import, which can make an otherwise headless run fail.
+        if not os.environ.get("MPLCONFIGDIR"):
+            cache_root = Path(os.environ.get("TMPDIR", "/tmp")) / "game-mechanic-lab-mplconfig"
+            cache_root.mkdir(parents=True, exist_ok=True)
+            os.environ["MPLCONFIGDIR"] = str(cache_root)
         import matplotlib
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt

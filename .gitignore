@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv-build/
+.venv-build-linux/
 build/
 dist/
 # Keep the release spec under version control; other local PyInstaller specs

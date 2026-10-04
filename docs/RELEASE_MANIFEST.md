@@ -67,12 +67,26 @@ python docs/capture_screenshots.py --output artifacts/screenshots
 
 ## Build outputs
 
-Linux/macOS development machines can create the source-backed portable folder:
+Linux machines can create a native single-file binary:
+
+```bash
+./build_linux.sh --clean
+./dist/GameMechanicLab-linux --headless --runs 1 --output /tmp/game-mechanic-lab-linux-smoke
+```
+
+The script writes `dist/GameMechanicLab-linux-build-info.json` and validates
+one real packaged fight. Use `--skip-optional-packages` for a smaller
+standard-library-only binary.
+
+Linux/macOS development machines can also create the source-backed portable folder:
 
 ```bash
 ./build_portable.sh
 dist/GameMechanicLab-portable/run.sh --headless --runs 1
 ```
+
+When `zip` is available, this also writes
+`dist/GameMechanicLab-portable-linux.zip`.
 
 The portable folder is not a Windows executable. Build the native Windows
 deliverable on Windows:
@@ -93,7 +107,8 @@ its local build environment and bundles `configs/`, `demo/`, and `docs/`.
 | `artifacts/formula_smoke_final/` | Paired Formula Lab variant JSON/CSV and replay smoke output |
 | `dist/GameMechanicLab-source-demo.zip` | Source, configs, demo, docs, tests, and reference artifacts |
 | `dist/GameMechanicLab-portable-linux.zip` | Portable source-backed launcher bundle |
-| `dist/GameMechanicLab` | Linux single-file build when produced on Linux |
+| `dist/GameMechanicLab-linux` | Native Linux single-file build |
+| `dist/GameMechanicLab-linux-build-info.json` | Linux toolchain and source manifest |
 | `dist/GameMechanicLab.exe` | Native Windows build, produced by `build_windows.ps1` on Windows |
 
 Generated caches, `build/`, and local virtual environments are not release

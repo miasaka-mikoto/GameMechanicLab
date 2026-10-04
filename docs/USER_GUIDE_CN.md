@@ -30,7 +30,14 @@ Windows 上在 PowerShell 执行：
 .\build_windows.ps1 -Clean
 ```
 
-生成 `dist\GameMechanicLab.exe`。Linux/macOS 开发机可执行 `./build_portable.sh` 生成便携目录；它不是 Windows `.exe`，Windows 包需在 Windows 环境构建。
+生成 `dist\GameMechanicLab.exe`。Linux 可以直接构建原生单文件程序：
+
+```bash
+./build_linux.sh --clean
+./dist/GameMechanicLab-linux --headless --runs 1 --output /tmp/gml-linux-smoke
+```
+
+脚本默认安装 Matplotlib/PyYAML 以生成完整图表；若只需要标准库运行时，可加 `--skip-optional-packages`。Linux/macOS 也可以执行 `./build_portable.sh` 生成源码便携目录和 `dist/GameMechanicLab-portable-linux.zip`；Windows 包仍需在 Windows 环境构建。
 
 ## 桌面页面
 

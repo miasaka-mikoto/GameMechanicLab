@@ -6,6 +6,7 @@ set -euo pipefail
 # keeps the source modules and data files together so it can be copied as-is.
 project_root="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 out_dir="$project_root/dist/GameMechanicLab-portable"
+archive_path="$project_root/dist/GameMechanicLab-portable-linux.zip"
 
 rm -rf "$out_dir"
 mkdir -p "$out_dir"
@@ -32,6 +33,8 @@ copy_if_present build_portable.sh
 copy_if_present GameMechanicLab.spec
 copy_if_present LICENSE
 cp "$project_root/run_demo.py" "$out_dir/"
+copy_if_present artifacts/final_demo
+copy_if_present artifacts/screenshots
 
 # Keep generated Python bytecode and local test caches out of the portable
 # handoff; they are not needed at runtime and can otherwise make the bundle
@@ -56,3 +59,11 @@ chmod +x "$out_dir/run.sh"
 
 echo "Portable build: $out_dir"
 echo "Run with: $out_dir/run.sh"
+
+rm -f "$archive_path"
+if command -v zip >/dev/null 2>&1; then
+  (cd "$project_root/dist" && zip -qr "$(basename "$archive_path")" "$(basename "$out_dir")")
+  echo "Portable archive: $archive_path"
+else
+  echo "zip is not installed; portable directory was still created." >&2
+fi
