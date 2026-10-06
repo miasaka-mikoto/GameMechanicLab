@@ -146,9 +146,13 @@ if (-not $SkipValidation) {
     try {
         # --output is used instead of stdout because this is a --windowed
         # executable and Windows may not attach a console to it.
-        & $ExePath --headless --runs 1 --output $SmokeRoot
-        if ($LASTEXITCODE -ne 0) {
-            throw "Packaged executable smoke test exited with code $LASTEXITCODE."
+        # A windowed executable can detach from direct PowerShell invocation.
+        # Wait for its actual process and preserve quoted output paths with spaces.
+        $SmokeProcess = Start-Process -FilePath $ExePath -ArgumentList @(
+            "--headless", "--runs", "1", "--output", ('"' + $SmokeRoot + '"')
+        ) -Wait -PassThru
+        if ($SmokeProcess.ExitCode -ne 0) {
+            throw "Packaged executable smoke test exited with code $($SmokeProcess.ExitCode)."
         }
         $SmokeResult = Join-Path $SmokeRoot "simulation_result.json"
         if (-not (Test-Path $SmokeResult -PathType Leaf)) {
